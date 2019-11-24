@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/webhelp-responsive/Topics/Concepts?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/webhelp-responsive/Topics/Concepts/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="ibm_storediq_insights" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Insights.dita" xtrc="concept:1;3:37">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Insights.dita" xtrc="title:1;4:12">IBM StoredIQ Insights</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Insights.dita" xtrc="shortdesc:1;5:16">IBM StoredIQ Insights provides dynamic and interactive filtering for your data with
+        easy access to all metadata and instant plain-text preview of document content for full-text
+        indexed volumes. </shortdesc>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Insights.dita" xtrc="conbody:1;8:14">
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Insights.dita" xtrc="p:1;9:12"> Faceted search lets you drill down to refine your search results as needed. In addition,
+            you can apply any valid IBM StoredIQ filter query. Tags let you categorize the data for
+            easier management. Visual representations of search results help you gain further
+            insights into your data. Several chart types let you look at and explore data from
+            different perspectives, thus helping you identify patterns and relationships very
+            quickly. </p>
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Insights.dita" xtrc="p:2;15:12"> With IBM StoredIQ Insights, you can search data that is managed and indexed by a data
+            server of the type DataServer - Distributed. In mixed deployments that have classic and
+            distributed data servers, only the content from distributed data servers will be
+            searchable. </p>
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Insights.dita" xtrc="p:3;19:12">
+            <image conkeyref="images/image_5" placement="inline" class="- topic/image " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Insights.dita" xtrc="image:1;20:47"/>
+        </p>
+    </conbody>
+</concept>

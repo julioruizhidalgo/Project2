@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Stack-provisioning-prerequisites">
+    <title>Stack-provisioning prerequisites</title>
+    <shortdesc/>
+
+    <taskbody>
+        <prereq>
+            <p>Before a deployment, verify that you meet these prerequisites.</p>
+            <ul>
+                <li>At least one physical server with sufficient processor, RAM, and hard disk
+                    configuration for the planned management project.</li>
+                <li>VMware ESX or ESXi on CD/DVD or USB drive.</li>
+                <li>IP addresses, cables, and physical switch ports for at least the ESXi/ESX
+                    interface, one data server, one gateway server, and one application stack.</li>
+                <li>Network connectivity that is enabled from the following locations: <ul>
+                        <li>The data server IP address to the gateway IP address on port 11103</li>
+                        <li>The gateway IP address to and from the application stack IP address on
+                            port 8765 and 5432</li>
+                        <li>Ports 80, 443, and 22 from the administrative workstation to the
+                            application stack and data server IP addresses</li>
+                        <li>Port 22 from the administrative workstation to the gateway IP
+                            address.</li>
+
+                    </ul></li>
+                
+                <li>Network connectivity that is enabled from the data server IP address to any
+                    data sources to be harvested and managed.</li>
+                <li>A management station computer or notebook from where the load-management work is
+                    done.</li>
+            </ul>
+        </prereq>
+        <context>
+            <p/>
+        </context>
+        <steps>
+            <step>
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

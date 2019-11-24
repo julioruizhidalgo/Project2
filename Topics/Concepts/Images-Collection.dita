@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="images_collection">
+    <title>Images Collection</title>
+    <shortdesc/>
+    <conbody>
+        <p/>
+
+        <image placement="break" scope="local" href="../../Resources/Images/IBM-Logo.png" id="image_logo" format="png">
+            <alt>IBM logo</alt>
+        </image>
+        <image placement="break" scope="external" href="../../Resources/Images/2.IBM_StoredIQ_Data_Server.png"
+            id="image_2" format="png">
+            <alt>IBM StoredIQ Data Server</alt>
+        </image>
+        <image placement="break" scope="external" href="../../Resources/Images/3.IBM_StoredIQ_Administrator.png"
+            id="image_3" format="png">
+            <alt>IBM_StoredIQ Administrator</alt>
+        </image>
+        <image placement="break" scope="external" href="../../Resources/Images/4.IBM_StoredIQ_Data_Workbench.png"
+            id="image_4" format="png">
+            <alt>IBM StoredIQ Data Workbench</alt>
+        </image>
+        <image placement="break" scope="external" href="../../Resources/Images/5.IBM_StoredIQ_Insights.png" id="image_5" format="png">
+            <alt>IBM StoredIQ Insights</alt>
+        </image>
+        <image placement="break" scope="external" href="../../Resources/Images/6.IBM_StoredIQ_Policy_Manager.png" id="image_6" format="png">
+            <alt>IBM StoredIQ Policy Manager</alt>
+        </image>
+    </conbody>
+</concept>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Openports-for-desktop-client-access-to-the-data-server">
+    <title>Open ports for desktop client access to the data server</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p><b>To open ports for desktop client access to the data server on OVA deployed
+                    systems, follow these steps:</b></p>
+        </context>
+        <steps>
+
+            <step>
+
+                <cmd> Log in to the data server as root and run this command: </cmd>
+                <info>
+                    <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -e desktop
+                    </codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd> Run this command: iptables -L INPUT </cmd>
+                <info> In the output of the command, check the list position of the rule that is
+                    named PROD-reject, for example, the 6th position on the list. </info>
+            </step>
+            <step>
+                <cmd> Run this command: iptables -A INPUT -j PROD-reject</cmd>
+            </step>
+            <step>
+                <cmd>
+                    Run this command: iptables -D INPUT list_position
+                </cmd>
+                <info>
+                    list_position is the position number of the PROD-reject rule that you determined in step 2.
+                </info>
+            </step>
+            <step>
+                <cmd>Run the following command:</cmd>
+                <info>
+                    <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -e desktop
+                    </codeblock>
+                </info>
+            </step>
+          
+        </steps>
+      
+       <result>
+           <note type="tip">
+               These steps are required only on an IBM StoredIQ OVA deployed system. The correct ports are open on an upgraded system.
+           </note>
+       </result>
+    </taskbody>
+   
+</task>

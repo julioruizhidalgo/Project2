@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="tables_collection">
+    <title>Tables</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p></p>
+        
+        <table frame="all" rowsep="1" colsep="1" id="table_1">
+            <title><b>Default open ports on the AppStack </b></title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Port Number</entry>
+                        <entry>
+                            <p><b>Protocol </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>22</entry>
+                        <entry>tcp</entry>
+                    </row>
+                    <row>
+                        <entry>80</entry>
+                        <entry>tcp</entry>
+                    </row>
+                    <row>
+                        <entry>443</entry>
+                        <entry>tcp</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_2">
+            <title>Default open ports on the IBM StoredIQ data server</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p><b>Port number </b></p>
+                        </entry>
+                        <entry>
+                            <p><b>Protocol </b></p>
+                        </entry>
+                        <entry>
+                            <p><b>Service </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>22</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>PROD-ssh </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>80</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>PROD-web </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>443</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>PROD-https (UI and Web Services APIs) </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>11103</p>
+                        </entry>
+                        <entry morerows="1">tcp</entry>
+                        <entry morerows="1">
+                            <p>PROD-transport (IBM StoredIQ transport services; communication
+                                between the gateway and the data server) </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>11104 </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_3">
+            <title>Default open ports on the nodes in the Elasticsearch cluster</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p><b>Port number </b></p>
+                        </entry>
+                        <entry>
+                            <p><b>Protocol </b></p>
+                        </entry>
+                        <entry>Service</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>21</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>ftp </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>22</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>sshd </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>80</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>443</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>8888</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>SimpleHTTPServer (used for copying the siq- elasticsearch.yml
+                                configuration file from the Elasticsearch node to the data server)
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>9200 </p>
+                        </entry>
+                        <entry>
+                            <p>tcp 6</p>
+                        </entry>
+                        <entry>
+                            <p>docker-proxy (listening for REST requests) </p>
+                            <p>You can restrict access to this port by either enabling Search Guard
+                                or by setting up a firewall. For more information, see “Securing
+                                Elasticsearch cluster communication with Search Guard” on page 51 or
+                                “Restricting access to port 9200 on Elasticsearch nodes” on page 52.
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>9300 </p>
+                        </entry>
+                        <entry>
+                            <p>tcp 6</p>
+                        </entry>
+                        <entry>
+                            <p>docker-proxy (internode communication) </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_4">
+            <title>Default open ports on the IBM StoredIQ gateway</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p><b>Port number </b></p>
+                        </entry>
+                        <entry>
+                            <p><b>Protocol </b></p>
+                        </entry>
+                        <entry>
+                            <p><b>Service </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>22</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>PROD-ssh </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>80</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>PROD-web </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>443</entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>PROD-https (UI and Web Services APIs) </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>5432 </p>
+                        </entry>
+                        <entry>
+                            <p>tcp </p>
+                        </entry>
+                        <entry>
+                            <p>PROD-postgres </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>5434 </p>
+                        </entry>
+                        <entry morerows="5">
+                            <p>tcp </p>
+                        </entry>
+                        <entry morerows="5">
+                            <p>PROD-transport (IBM StoredIQ transport services; communication
+                                between the gateway and the data server) </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>8765 </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>7766 </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>11102 </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>11103 </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>11104 </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_5">
+            <title/>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p><b>Account </b></p>
+                        </entry>
+                        <entry>
+                            <p><b>Default password </b></p>
+                        </entry>
+                        <entry>
+                            <p><b>Description </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p>admin </p>
+                        </entry>
+                        <entry>
+                            <p>admin </p>
+                        </entry>
+                        <entry>
+                            <p>Administrative account for accessing IBM StoredIQ Data Server. Use
+                                this account for the initial setup of the data server and to create
+                                further administrative accounts for routine administration. </p>
+                            <p>Change the password in IBM StoredIQ Data Server under
+                                    <b>Administration </b>> <b>Configuration </b>> <b>Manage
+                                    users</b>. </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>audituser </p>
+                        </entry>
+                        <entry>
+                            <p>Passw0rd! </p>
+                        </entry>
+                        <entry>
+                            <p>Account for accessing the audit database on the AppStack. </p>
+                            <p>Change the password by running the <b>change_audituser_password
+                                </b>script as siqadmin user on the AppStack. </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>builder </p>
+                        </entry>
+                        <entry>
+                            <p>None. Password is set during initial configuration. </p>
+                        </entry>
+                        <entry>
+                            <p>Account for setting up and configuring the Elasticsearch cluster. </p>
+                            <p>You can change the password by using the Linux <b>passwd </b>command.
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>reportuser </p>
+                        </entry>
+                        <entry>
+                            <p>St0red1q </p>
+                        </entry>
+                        <entry>
+                            <p>Account for accessing the report database on the AppStack. </p>
+                            <p>Change the password by running the <b>change_reportuser_password
+                                </b>script as siqadmin user on the AppStack. </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>siqadmin </p>
+                        </entry>
+                        <entry>
+                            <p>Passw0rd! </p>
+                        </entry>
+                        <entry>
+                            <p>Administrative account for managing the AppStack server. For more
+                                information, see the administration guide. </p>
+                            <p>With new installations, you are prompted for a new password during
+                                the initial configuration of the AppStack. In updated deployments,
+                                change the password by using the Linux <b>passwd </b>command. </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>superadmin </p>
+                        </entry>
+                        <entry>
+                            <p>admin </p>
+                        </entry>
+                        <entry>
+                            <p>Administrative account for accessing IBM StoredIQ Administrator and
+                                IBM StoredIQ Data Server. Use this account for the initial setup of
+                                IBM StoredIQ and to create further administrative accounts for
+                                routine administration so that their actions can be audited. </p>
+                            <p>Change the password in IBM StoredIQ Administrator: go to <b>Users
+                                </b>and edit the superadmin account. </p>
+                            <p>The superadmin account has access to all IBM StoredIQ applications on
+                                the application stack. To switch applications, click the triangle
+                                arrow icon and select the application that you want to access from
+                                the list of the available applications. </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

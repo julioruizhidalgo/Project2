@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title></title>
+    <title>Project 2</title>
+    <topicref href="SecondMap.ditamap" format="ditamap"/>
+    <topicref href="Topics/Concepts/Cover-page.dita"/>
+
+    <topicgroup>
+        <topicref href="Topics/Concepts/About-this-Publicaton.dita">
+            <topicref href="Topics/Concepts/Product-Library.dita"/>
+            <topicref href="Topics/Tasks/Contacting-Customer-Support.dita"/>
+        </topicref>
+    </topicgroup>
+    <topicgroup>
+        <topicref href="Topics/Concepts/IBM-StoredIQ-Components.dita">
+            <topicref href="Topics/References/Solution-components.dita"> </topicref>
+
+            <topicref href="Topics/Concepts/Applications-of-IBM-StoredIQ.dita">
+                <topicref href="Topics/Concepts/IBM-StoredIQ-Data-Server.dita"/>
+                <topicref href="Topics/Concepts/IBM-StoredIQ-Administrator.dita"/>
+                <topicref href="Topics/Concepts/IBM-StoredIQ-Data-Workbench.dita"/>
+                <topicref href="Topics/Concepts/IBM-StoredIQ-Insights.dita"/>
+                <topicref href="Topics/Concepts/IBM-StoredIQ-Policy-Manager.dita"/>
+                <topicref href="Topics/Concepts/IBM-StoredIQ-Desktop-Data-Collector.dita"> </topicref>
+
+
+            </topicref>
+
+        </topicref>
+
+    </topicgroup>
+    <topicgroup>
+        <topicref href="Topics/Tasks/Planning-for-deployment.dita">
+            <topicref
+                href="Topics/Concepts/Open-Virtual-Appliance-OVA-configuration-requirements.dita"/>
+            <topicref href="Topics/Concepts/Network-and-port-requirements.dita">
+                <topicref
+                    href="Topics/Tasks/Openports-for-desktop-client-access-to-the-data-server.dita"
+                />
+            </topicref>
+            <topicref href="Topics/Tasks/Environment-sizing-guidelines.dita"> </topicref>
+            <topicref href="Topics/Tasks/Stack-provisioning-prerequisites.dita"/>
+            <topicref href="Topics/Concepts/License-usage-metrics.dita"> </topicref>
+            <topicref href="Topics/Concepts/Security.dita">
+                <topicref href="Topics/Concepts/Default-user-accounts.dita"/>
+            </topicref>
+        </topicref>
+
+    </topicgroup>
+    <topicgroup>
+        <topicref href="Topics/Tasks/Deploying-IBM-StoredIQ.dita">
+            <topicref href="Topics/Tasks/Deploying-the-virtual-appliances.dita"/>
+            <topicref href="Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita"
+            > </topicref>
+        </topicref>
+    </topicgroup>
 </map>

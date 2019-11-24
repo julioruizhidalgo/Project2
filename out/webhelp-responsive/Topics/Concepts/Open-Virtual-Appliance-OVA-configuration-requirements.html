@@ -1,0 +1,274 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" content="IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a virtual infrastructure ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="concept" /><meta name="DC.relation" scheme="URI" content="../../Topics/Tasks/Planning-for-deployment.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="Open-Virtual-Appliance-OVA-configuration-requirements" /><title>Open Virtual Appliance (OVA) configuration requirements</title><!--  Generated with Oxygen version 21.1, build number 2019083011.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="Open-Virtual-Appliance-OVA-configuration-requirements-d62e200" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2019083011" /><script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script><script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen-red.css?buildId=2019083011" /></head>
+
+    <body id="Open-Virtual-Appliance-OVA-configuration-requirements" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Project 2</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="cover-page-d62e48-mi" data-tocid="cover-page-d62e48" data-state="leaf" class=" topicref " data-id="cover-page"><span class="title"><a href="../../Topics/Concepts/Cover-page.html">IBM StoredIQ</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="about-this-publicaton-d62e61-mi" data-tocid="about-this-publicaton-d62e61" data-state="not-ready" class=" topicref " data-id="about-this-publicaton"><span class="title"><a href="../../Topics/Concepts/About-this-Publicaton.html">About this Publication</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="ibm-ctorediq-components-d62e95-mi" data-tocid="ibm-ctorediq-components-d62e95" data-state="not-ready" class=" topicref " data-id="ibm-ctorediq-components"><span class="title"><a href="../../Topics/Concepts/IBM-StoredIQ-Components.html">IBM StoredIQ components</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="planning_for_deployment-d62e189-mi" data-tocid="planning_for_deployment-d62e189" data-state="not-ready" class=" topicref " data-id="planning_for_deployment"><span class="title"><a href="../../Topics/Tasks/Planning-for-deployment.html">Planning for deployment</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="deploying_ibm_toredIQ-d62e280-mi" data-tocid="deploying_ibm_toredIQ-d62e280" data-state="not-ready" class=" topicref " data-id="deploying_ibm_toredIQ"><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ.html">Deploying IBM StoredIQ</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="planning_for_deployment-d62e189" class="topicref" data-id="planning_for_deployment" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action planning_for_deployment-d62e189-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Planning-for-deployment.html" id="planning_for_deployment-d62e189-link">Planning for deployment</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"> </p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" class="active"><span data-tocid="Open-Virtual-Appliance-OVA-configuration-requirements-d62e200" class="topicref" data-id="Open-Virtual-Appliance-OVA-configuration-requirements" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Open-Virtual-Appliance-OVA-configuration-requirements.html" id="Open-Virtual-Appliance-OVA-configuration-requirements-d62e200-link">Open Virtual Appliance (OVA) configuration requirements</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="network_and_port_requirements-d62e208" class="topicref" data-id="network_and_port_requirements" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action network_and_port_requirements-d62e208-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Network-and-port-requirements.html" id="network_and_port_requirements-d62e208-link">Network and port requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="Environment_sizing_guidelines-d62e228" class="topicref" data-id="Environment_sizing_guidelines" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Environment-sizing-guidelines.html" id="Environment_sizing_guidelines-d62e228-link">Environment sizing guidelines</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="Stack-provisioning-prerequisites-d62e238" class="topicref" data-id="Stack-provisioning-prerequisites" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Stack-provisioning-prerequisites.html" id="Stack-provisioning-prerequisites-d62e238-link">Stack-provisioning prerequisites</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="license_usage_metrics-d62e248" class="topicref" data-id="license_usage_metrics" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/License-usage-metrics.html" id="license_usage_metrics-d62e248-link">License usage metrics</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="security-d62e258" class="topicref" data-id="security" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action security-d62e258-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Security.html" id="security-d62e258-link">Security</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Open Virtual Appliance (OVA) configuration requirements</h1>
+    
+    
+
+    <div class="body conbody"><div class="abstract"> IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0
+        (all fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a
+        virtual infrastructure that meets the IBM StoredIQ hardware requirements.</div>
+        <div class="div">
+            <ul class="ul">
+                <li class="li"> Application stack <ul class="ul">
+
+                        <li class="li">vCPU: 2</li>
+                        <li class="li">Memory: 4 GB</li>
+                        <li class="li">Storage: <ul class="ul">
+                                <li class="li">Primary disk (vmdisk1): 21 GB</li>
+                                <li class="li">Data disk (vmdisk2): 10 GB</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="li">Gateway server <ul class="ul">
+                        <li class="li">vCPU: 4</li>
+                        <li class="li">Memory: 8 GB</li>
+                        <li class="li">Storage: <ul class="ul">
+                                <li class="li">Primary disk (vmdisk1): 100 GB</li>
+                                <li class="li">Data disk (vmdisk2): 75 GB</li>
+                                <li class="li">Swap disk (vmdisk3): 40 - 100 GB</li>
+                            </ul></li>
+                    </ul>
+                </li>
+                <li class="li">DataServer - Classic <ul class="ul">
+                        <li class="li">vCPU: 4 <p class="p"> Even though increasing the number of vCPUs increases
+                                performance, the actual benefits depend on whether the specific host
+                                is oversubscribed or not. </p>
+                        </li>
+                        <li class="li">Memory: 16 GB <p class="p"> While the minimum value works under light-load
+                                condition, as the load increases, the data server quickly starts
+                                using swap space. For high load situations, increasing RAM beyond 16
+                                GB can benefit performance. Monitoring swap usage can provide
+                                insight. </p>
+                        </li>
+                        <li class="li">Storage: <ul class="ul">
+                                <li class="li">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB <div class="p"> This
+                                        virtual disk has an associated VMDK that contains the IBM
+                                        StoredIQ operating code. Do not change its size. <table role="presentation" border="1" class="note hazardstatement"><tr><th colspan="2" class="hazardstatement--caution"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" class="hazardsymbol" version="1.1" height="1em" viewBox="0 0 600 525"><metadata>
+      <rdf:RDF>
+         <cc:Work rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+            <dc:title></dc:title>
+         </cc:Work>
+      </rdf:RDF>
+   </metadata><defs>
+      <path d="M 2.8117,-1.046 A 3,3 0 0 1 0.5,2.958 V 4.5119 A 10.5,10.5 0 0 1 2,25.3078 v 0.5583 A 15,15 0 0 0 14.7975,8.5433 15,15 0 0 0 23.4007,-11.201 l -0.4835,0.2792 A 10.5,10.5 0 0 1 4.1574,-1.8229 z m 3.4148,8.871 a 10,10 0 0 1 -12.453,0 9.5,9.5 0 0 0 -2.1756,2.7417 13.5,13.5 0 0 0 16.8042,0 A 10,10 0 0 0 6.2265,7.825 z" transform="matrix(10,0,0,-10,260,260)"></path>
+   </defs><path d="M 597.6,499.6 313.8,8 C 310.9,3 305.6,0 299.9,0 294.2,0 288.9,3.1 286,8 L 2.2,499.6 c -2.9,5 -2.9,11.1 0,16 2.9,5 8.2,8 13.9,8 h 567.6 c 5.7,0 11,-3.1 13.9,-8 2.9,-5 2.9,-11.1 0,-16 z"></path><polygon points="43.875,491.5 299.875,48.2 555.875,491.5 " transform="matrix(1,0,0,0.99591458,0.125,2.0332437)" style="fill:#f6bd16;fill-opacity:1;stroke:none;overflow:visible"></polygon><path d="m -384.00937,417.52725 a 38.151581,36.156727 0 1 1 -76.30316,0 38.151581,36.156727 0 1 1 76.30316,0 z" transform="matrix(0.99319888,0,0,1.0479962,719.28979,-2.9357862)" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.62514842;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:0.4;stroke-dasharray:none;stroke-dashoffset:0"></path><path d="m 300,168.60074 c -20.64745,0 -37.26716,16.97292 -37.26716,38.05658 l 11.01897,133.31318 c 2.10449,17.24457 3.90184,27.0149 11.01898,31.60966 4.64712,2.1172 9.79468,3.32214 15.22921,3.32214 5.40832,0 10.53383,-1.1913 15.16343,-3.28925 7.15697,-4.58178 8.97556,-14.35941 11.08476,-31.64255 l 11.01898,-133.31318 c 0,-21.08366 -16.61973,-38.05658 -37.26717,-38.05658 z" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.88582677;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"></path></svg> CAUTION</th></tr><tr><td><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" class="hazardsymbol" version="1.1" height="4em" viewBox="0 0 600 525">
+   <metadata>
+      <rdf:RDF>
+         <cc:Work rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+            <dc:title></dc:title>
+         </cc:Work>
+      </rdf:RDF>
+   </metadata>
+   <defs>
+      <path d="M 2.8117,-1.046 A 3,3 0 0 1 0.5,2.958 V 4.5119 A 10.5,10.5 0 0 1 2,25.3078 v 0.5583 A 15,15 0 0 0 14.7975,8.5433 15,15 0 0 0 23.4007,-11.201 l -0.4835,0.2792 A 10.5,10.5 0 0 1 4.1574,-1.8229 z m 3.4148,8.871 a 10,10 0 0 1 -12.453,0 9.5,9.5 0 0 0 -2.1756,2.7417 13.5,13.5 0 0 0 16.8042,0 A 10,10 0 0 0 6.2265,7.825 z" transform="matrix(10,0,0,-10,260,260)"></path>
+   </defs>
+   <path d="M 597.6,499.6 313.8,8 C 310.9,3 305.6,0 299.9,0 294.2,0 288.9,3.1 286,8 L 2.2,499.6 c -2.9,5 -2.9,11.1 0,16 2.9,5 8.2,8 13.9,8 h 567.6 c 5.7,0 11,-3.1 13.9,-8 2.9,-5 2.9,-11.1 0,-16 z"></path>
+   <polygon points="43.875,491.5 299.875,48.2 555.875,491.5 " transform="matrix(1,0,0,0.99591458,0.125,2.0332437)" style="fill:#f6bd16;fill-opacity:1;stroke:none;overflow:visible"></polygon>
+   <path d="m -384.00937,417.52725 a 38.151581,36.156727 0 1 1 -76.30316,0 38.151581,36.156727 0 1 1 76.30316,0 z" transform="matrix(0.99319888,0,0,1.0479962,719.28979,-2.9357862)" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.62514842;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:0.4;stroke-dasharray:none;stroke-dashoffset:0"></path>
+   <path d="m 300,168.60074 c -20.64745,0 -37.26716,16.97292 -37.26716,38.05658 l 11.01897,133.31318 c 2.10449,17.24457 3.90184,27.0149 11.01898,31.60966 4.64712,2.1172 9.79468,3.32214 15.22921,3.32214 5.40832,0 10.53383,-1.1913 15.16343,-3.28925 7.15697,-4.58178 8.97556,-14.35941 11.08476,-31.64255 l 11.01898,-133.31318 c 0,-21.08366 -16.61973,-38.05658 -37.26717,-38.05658 z" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.88582677;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"></path>
+</svg></td><td><div class="messagepanel">
+                                                <div class="typeofhazard">Attention: If you delete the primary
+                                                  disk, you delete the operating system, and the IBM
+                                                  StoredIQ software; the virtual machine might need
+                                                  to be scrapped.</div>
+                                                <div class="howtoavoid"></div>
+                                            </div></td></tr></table>
+                                    </div>
+                                </li>
+                                <li class="li">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB <p class="p"> This virtual
+                                        disk can be resized according to expectations on the amount
+                                        of harvest data to be stored. For purposes of estimation,
+                                        the index storage requirement for metadata is about 30 GB
+                                        per TB of managed source data. Full-text indexing requires
+                                        an extra 170 GB per TB. Therefore, the default data disk
+                                        size is targeted for managing 10 TB of source information.
+                                    </p></li>
+                                <li class="li">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB <p class="p">When under
+                                        load, the data server can use much RAM; therefore, having
+                                        ample swap space is prudent. The minimum swap size is equal
+                                        to the amount of RAM configured for the virtual machine. For
+                                        best performance under load, place this disk on the highest
+                                        speed data store available to the host.</p>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="p">The general size limits for a data server are 150 million objects or 500
+                        defined volumes, whichever limit is reached first. Assuming an average
+                        object size of 200 KB equals about 30 TB of managed storage across 30
+                        volumes of 5 million objects each, the index storage requirement for
+                        metadata on ~30 TB of storage that contains uncompressed general office
+                        documents is ~330 GB (11 GB per TB). Add 100 GB per TB of managed storage
+                        for full-text or snippet index. For example, to support 30 TB of storage
+                        that is indexed for metadata, you need 8 TB indexed for full-text search and
+                        extracted text (snippet cache) of 8 TB for auto-classification. A total of
+                        1.9 TB of storage is required (metadata: 330 GB, full-text: 800 GB, snippet
+                        cache: 800 GB).</p>
+                    <p class="p"> Data-server performance is impacted by the IOPS available from the storage
+                        subsystem. For each data server under maximum workload, at least 650 IOPS
+                        generally delivers acceptable performance. In the situations where there is
+                        a high load on the system, the IOPS that is used can reach up to 7000 with
+                        main write operations. </p>
+                </li>
+                <li class="li">DataServer - Distributed <ul class="ul">
+                        <li class="li">vCPU: 4 <p class="p"> Even though increasing the number of vCPUs increases
+                                performance, the actual benefits depend on whether the specific host
+                                is oversubscribed or not. </p>
+                        </li>
+                        <li class="li">Memory: 16 GB </li>
+                        <li class="li">Storage: <ul class="ul">
+                                <li class="li">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB </li>
+                                <li class="li"> Data disk (vmdisk2, SCSI 0:1): Default is 2 TB </li>
+                                <li class="li"> Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB </li>
+                            </ul>
+                            <p class="p">If you deploy this type of data server, you must also deploy an
+                                Elasticsearch cluster with at least one node. If you deploy a
+                                cluster with more nodes, each of the Elasticsearch nodes must meet
+                                the listed requirements.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="li">Each Elasticsearch node <ul class="ul">
+                        <li class="li">vCPU: 1</li>
+                        <li class="li">Memory: 32 GB</li>
+                        <li class="li">Storage: <ul class="ul">
+                                <li class="li">Primary disk (vmdisk1): 100 GB</li>
+                                <li class="li">Data disk (vmdisk2): 1 TB</li>
+                            </ul>
+                            <p class="p"> The required memory depends on the index size that is handled by the
+                                data node. For a better performance, consider increasing the memory.
+                                The total memory available to the node must be distributed between
+                                the host operating system, the Elasticsearch java heap space, and
+                                the kernel file system caches. For example, if the system has 32 GB
+                                memory, 2 GB must be allocated for the host operating system, 15 GB
+                                for the java heap space, and the remaining 15 GB for the file system
+                                caches. </p>
+                            <p class="p"> The data disk (vmdisk2) can be resized according to expectations on
+                                the amount of harvest data to be stored. </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <p class="p"></p>
+
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

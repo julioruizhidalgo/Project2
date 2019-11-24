@@ -1,0 +1,217 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="concept" /><meta name="description" content="Plan and implement specific security measures to protect the application and the data it manages, especially when you deploy IBM StoredIQ into sensitive environments. IBM StoredIQ keeps your data ..." /><meta name="DC.relation" scheme="URI" content="../../Topics/Tasks/Planning-for-deployment.html" /><meta name="DC.relation" scheme="URI" content="../../Topics/Concepts/Default-user-accounts.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="security" />        
+      <title>Security</title><!--  Generated with Oxygen version 21.1, build number 2019083011.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="security-d62e258" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2019083011" /><script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script><script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen-red.css?buildId=2019083011" /></head>
+
+    <body id="security" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Project 2</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="cover-page-d62e48-mi" data-tocid="cover-page-d62e48" data-state="leaf" class=" topicref " data-id="cover-page"><span class="title"><a href="../../Topics/Concepts/Cover-page.html">IBM StoredIQ</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="about-this-publicaton-d62e61-mi" data-tocid="about-this-publicaton-d62e61" data-state="not-ready" class=" topicref " data-id="about-this-publicaton"><span class="title"><a href="../../Topics/Concepts/About-this-Publicaton.html">About this Publication</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="ibm-ctorediq-components-d62e95-mi" data-tocid="ibm-ctorediq-components-d62e95" data-state="not-ready" class=" topicref " data-id="ibm-ctorediq-components"><span class="title"><a href="../../Topics/Concepts/IBM-StoredIQ-Components.html">IBM StoredIQ components</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="planning_for_deployment-d62e189-mi" data-tocid="planning_for_deployment-d62e189" data-state="not-ready" class=" topicref " data-id="planning_for_deployment"><span class="title"><a href="../../Topics/Tasks/Planning-for-deployment.html">Planning for deployment</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="deploying_ibm_toredIQ-d62e280-mi" data-tocid="deploying_ibm_toredIQ-d62e280" data-state="not-ready" class=" topicref " data-id="deploying_ibm_toredIQ"><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ.html">Deploying IBM StoredIQ</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="planning_for_deployment-d62e189" class="topicref" data-id="planning_for_deployment" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action planning_for_deployment-d62e189-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Planning-for-deployment.html" id="planning_for_deployment-d62e189-link">Planning for deployment</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"> </p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="Open-Virtual-Appliance-OVA-configuration-requirements-d62e200" class="topicref" data-id="Open-Virtual-Appliance-OVA-configuration-requirements" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Open-Virtual-Appliance-OVA-configuration-requirements.html" id="Open-Virtual-Appliance-OVA-configuration-requirements-d62e200-link">Open Virtual Appliance (OVA) configuration requirements</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="network_and_port_requirements-d62e208" class="topicref" data-id="network_and_port_requirements" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action network_and_port_requirements-d62e208-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Network-and-port-requirements.html" id="network_and_port_requirements-d62e208-link">Network and port requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="Environment_sizing_guidelines-d62e228" class="topicref" data-id="Environment_sizing_guidelines" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Environment-sizing-guidelines.html" id="Environment_sizing_guidelines-d62e228-link">Environment sizing guidelines</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="Stack-provisioning-prerequisites-d62e238" class="topicref" data-id="Stack-provisioning-prerequisites" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Stack-provisioning-prerequisites.html" id="Stack-provisioning-prerequisites-d62e238-link">Stack-provisioning prerequisites</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="license_usage_metrics-d62e248" class="topicref" data-id="license_usage_metrics" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/License-usage-metrics.html" id="license_usage_metrics-d62e248-link">License usage metrics</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem" aria-expanded="true" class="active"><span data-tocid="security-d62e258" class="topicref" data-id="security" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action security-d62e258-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Security.html" id="security-d62e258-link">Security</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="default_user_accounts-d62e268" class="topicref" data-id="default_user_accounts" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Default-user-accounts.html" id="default_user_accounts-d62e268-link">Default user accounts</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li></ul></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Security</h1>
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        <p class="p">Plan and implement specific security measures to protect the application and the data it
+            manages, especially when you deploy IBM StoredIQ into sensitive environments.</p>
+        <p class="p">IBM StoredIQ keeps your data secure through encryption, security hardening, and
+            auditing.</p>
+        <div class="div" id="security__fips">
+            <p class="p"><strong class="ph b">Federal Information Processing Standard (FIPS)</strong></p>
+            <p class="p">FIPS is a standard recommended by the National Institute of Standards and Technology
+                (NIST) and the US Federal Government. It ensures certain security standards are met
+                for software or hardware components deployed at US government sites. Enabling FIPS
+                ensures that the SSL/TLS engine that is compliant with the US Government
+                recommendation is used. IBM StoredIQ supports FIPS Level 1.</p>
+            <p class="p">Secure gateway communication can be enabled without FIPS. If FIPS is enabled, IBM
+                StoredIQ uses FIPS compliant versions of OpenSSL.</p>
+        </div>
+        <div class="div" id="security__secure_communication_and_encryption_of_data_in_motion">
+            <p class="p"><strong class="ph b"> Secure communication and encryption of data in motion </strong></p>
+            <p class="p"> In a production environment, you should configure or install certificates on the
+                AppStack to enable HTTPS communication and to enable encryption of data in motion
+                between the browser and the AppStack. You can to this during installation and
+                initial configuration or at any time afterward. For details, see the instructions
+                for configuring certificates. </p>
+            <p class="p"> The gateway handles the communication between the data servers and the application
+                stack. By default, the communication between the gateway, any data servers, and the
+                AppStack is in plain text and is not encrypted. If your enterprise security policy
+                mandates encryption of data in motion, enable secure gateway communication. In this
+                case, secure gateway communication must be configured on all three IBM StoredIQ
+                components. You can enable secure gateway communication during installation and
+                initial configuration or at any time afterward. For details, see “Managing the
+                status of secure gateway communication” on page 54. </p>
+            <p class="p"> IBM StoredIQ then uses stunnel to ensure secure communication between the
+                components. If your environment includes data servers of the type DataServer -
+                Distributed, stunnel can also be used to encrypt the communication between the nodes
+                within the Elasticsearch cluster but not for encrypting the communication between
+                the data server and the Elasticsearch cluster. </p>
+            <p class="p">To secure the communication between the data server and the Elasticsearch cluster and
+                the communication within the Elasticsearch cluster likewise, you can enable Search
+                Guard. For more information, see “Securing Elasticsearch cluster communication with
+                Search Guard” on page 51. If you don't want to do that but still want to restrict
+                client access to port 9200 on the Elasticsearch nodes, you can set up the firewall
+                accordingly. For more information, see “Restricting access to port 9200 on
+                Elasticsearch nodes” on page 52.</p>
+            <p class="p">If FIPS is not enabled, the following cipher suites and encryption algorithm are used
+                for data at rest:</p>
+            <ul class="ul">
+                <li class="li">TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256</li>
+                <li class="li">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</li>
+            </ul>
+            <p class="p">You can configure these cipher suites in the configuration files listed in the list
+                of key and certificate files. However, if you run the utilities for enabling
+                stunnel, you might need to make the respective configuration changes again.</p>
+        </div>
+        <div class="div" id="security__encryption_of_data_at_rest">
+            <p class="p"><strong class="ph b">Encryption of data at rest</strong></p>
+            <p class="p">Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the
+                Elasticsearch indexes are stored is encrypted by default. IBM StoredIQ uses Linux
+                Unified Key Setup (LUKS) for disk encryption. For details about key management, see
+                “Key and certificate management” on page 41.</p>
+            <p class="p">Optionally, you can encrypt the application data on the IBM StoredIQ application
+                stack. For more information, see “Enabling encryption of IBM StoredIQ AppStack
+                application data” on page 50.</p>
+        </div>
+        <div class="div" id="security__network_isolation">
+            <p class="p"><strong class="ph b">Network isolation</strong></p>
+            <p class="p">If full-text harvesting and Step-up Analytics actions (cartridges) are applied,
+                Elasticsearch indexes can contain potentially sensitive content. Therefore, you
+                should deploy the Elasticsearch nodes in an isolated location on the network (for
+                example, as an enclave or behind a firewall) that is properly secured according to
+                the sensitivity of the data being harvested. Only the IBM StoredIQ application stack
+                and data servers should be allowed to communicate with the Elasticsearch nodes.</p>
+            <p class="p">Also, any data servers and the gateway should be deployed in an isolated network
+                location to allow for communication with authorized clients only.</p>
+        </div>
+        <div class="div" id="security__access_control">
+            <p class="p"><strong class="ph b">Access control</strong></p>
+            <p class="p">The following administrative accounts are required. The builder and siqadmin accounts
+                are IBM StoredIQ-specific accounts. For more information about these accounts, see
+                “Default user accounts” on page 17.</p>
+            <ul class="ul">
+                <li class="li"><strong class="ph b">root and builder accounts on the Elasticsearch cluster nodes </strong><p class="p"> Remote
+                        login for root can be disabled. However, local root login is required,
+                        either log in as root or use the <strong class="ph b">su</strong> command to obtain root
+                        permissions temporarily. </p>
+                    <p class="p">You set the passwords for the root and builder accounts during the
+                        configuration process when you start the VM for the first time. You can
+                        change these passwords anytime.</p>
+                </li>
+                <li class="li"><strong class="ph b">siqadmin account on the AppStack</strong>
+                    <p class="p">Administration of the AppStack usually does not require direct root access.
+                        For day-to-day administration, the siqadmin account can be used.</p>
+                    <p class="p">You set the password for the siqadmin account during the configuration
+                        process when you start the VM for the first time. You can change this
+                        password anytime. </p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="solution-components">
+    <title>Solution components</title>
+    <abstract>IBM StoredIQ provides three solution components: the gateway, data servers, and
+        application stack (AppStack).</abstract>
+    
+    <reference id="gateway">
+        <title>Gateway</title>
+        <refbody>
+            <section>
+                <title/>
+                <p> The gateway communicates between the data servers and the application stack. The
+                    application stack polls the gateway for information about the data on the data
+                    servers. The data servers push the information to the gateway. </p>
+            </section>
+        </refbody>
+
+    </reference>
+    <reference id="data_servers">
+        <title>Data servers</title>
+
+        <refbody>
+            <section>
+                <title/>
+                <p>A data server obtains the data from supported data sources and indexes it. By
+                    indexing this data, you gain information about unstructured data such as file
+                    size, file data types, file owners.</p>
+                <p> The data server pushes the information about volumes and indexes to the gateway
+                    so it can be communicated to the application stack. Multiple data servers feed
+                    into a single gateway. </p>
+                <p> Data servers can be categorized in two types: DataServer - Classic and
+                    DataServer - Distributed. A data server of the type DataServer - Classic uses
+                    the embedded PostgreSQL database for storing the index. With a data server of
+                    the type DataServer - Distributed, the index is stored in an Elasticsearch
+                    cluster. Data servers of this type also provide better performance in search
+                    queries. They can manage much larger amounts of data than data servers of the
+                    type DataServer - Classic, thus making the IBM StoredIQ deployments more
+                    scalable. </p>
+                <p> You can have both types of data servers in your IBM StoredIQ deployment. </p>
+                <p> In addition to completing standard administrative tasks, administrators can
+                    deploy the IBM StoredIQ Desktop Data Collector and index desktops from the data
+                    server. </p>
+            </section>
+        </refbody>
+
+
+    </reference>
+    <reference id="application_stack">
+        <title>Application stack</title>
+        <refbody>
+            <section>
+                <title/>
+                <p> The application stack provides the user interface for the IBM StoredIQ
+                    Administrator, IBM StoredIQ Data Workbench, IBM StoredIQ Insights, and the IBM
+                    StoredIQ Policy Manager products. </p>
+                <p> The synchronization feature for integration with a governance catalog is also
+                    part of the application stack. </p>
+            </section>
+        </refbody>
+    </reference>
+    <reference id="elasticsearch_cluster">
+        <title>Elasticsearch cluster</title>
+        <refbody>
+            <section>
+                <title/>
+                <p> The Elasticsearch cluster attached to a data server of the type DataServer -
+                    Distributed provides a single data store for all metadata and content of
+                    harvested objects. Indexed data is distributed automatically across the nodes in
+                    the cluster. Indexing and queries are load-balanced across all nodes. Nodes can
+                    be added dynamically without downtime and the indexing process can use these
+                    newly added nodes without further setup. </p>
+            </section>
+        </refbody>
+    </reference>
+</reference>

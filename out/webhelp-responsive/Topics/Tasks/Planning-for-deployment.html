@@ -1,0 +1,172 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="task" /><meta name="description" content="When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations. In addition to the information in this section, review the requirements detailed in the IBM Software Product ..." /><meta name="DC.relation" scheme="URI" content="../../Topics/Concepts/Open-Virtual-Appliance-OVA-configuration-requirements.html" /><meta name="DC.relation" scheme="URI" content="../../Topics/Concepts/Network-and-port-requirements.html" /><meta name="DC.relation" scheme="URI" content="../../Topics/Tasks/Environment-sizing-guidelines.html" /><meta name="DC.relation" scheme="URI" content="../../Topics/Tasks/Stack-provisioning-prerequisites.html" /><meta name="DC.relation" scheme="URI" content="../../Topics/Concepts/License-usage-metrics.html" /><meta name="DC.relation" scheme="URI" content="../../Topics/Concepts/Security.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="planning_for_deployment" />        
+      <title>Planning for deployment</title><!--  Generated with Oxygen version 21.1, build number 2019083011.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="planning_for_deployment-d62e189" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2019083011" /><script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script><script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen-red.css?buildId=2019083011" /></head>
+
+    <body id="planning_for_deployment" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Project 2</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="cover-page-d62e48-mi" data-tocid="cover-page-d62e48" data-state="leaf" class=" topicref " data-id="cover-page"><span class="title"><a href="../../Topics/Concepts/Cover-page.html">IBM StoredIQ</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="about-this-publicaton-d62e61-mi" data-tocid="about-this-publicaton-d62e61" data-state="not-ready" class=" topicref " data-id="about-this-publicaton"><span class="title"><a href="../../Topics/Concepts/About-this-Publicaton.html">About this Publication</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="ibm-ctorediq-components-d62e95-mi" data-tocid="ibm-ctorediq-components-d62e95" data-state="not-ready" class=" topicref " data-id="ibm-ctorediq-components"><span class="title"><a href="../../Topics/Concepts/IBM-StoredIQ-Components.html">IBM StoredIQ components</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="planning_for_deployment-d62e189-mi" data-tocid="planning_for_deployment-d62e189" data-state="not-ready" class=" topicref " data-id="planning_for_deployment"><span class="title"><a href="../../Topics/Tasks/Planning-for-deployment.html">Planning for deployment</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="deploying_ibm_toredIQ-d62e280-mi" data-tocid="deploying_ibm_toredIQ-d62e280" data-state="not-ready" class=" topicref " data-id="deploying_ibm_toredIQ"><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ.html">Deploying IBM StoredIQ</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true" class="active"><span data-tocid="planning_for_deployment-d62e189" class="topicref" data-id="planning_for_deployment" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action planning_for_deployment-d62e189-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Planning-for-deployment.html" id="planning_for_deployment-d62e189-link">Planning for deployment</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"> </p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="Open-Virtual-Appliance-OVA-configuration-requirements-d62e200" class="topicref" data-id="Open-Virtual-Appliance-OVA-configuration-requirements" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Open-Virtual-Appliance-OVA-configuration-requirements.html" id="Open-Virtual-Appliance-OVA-configuration-requirements-d62e200-link">Open Virtual Appliance (OVA) configuration requirements</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="network_and_port_requirements-d62e208" class="topicref" data-id="network_and_port_requirements" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action network_and_port_requirements-d62e208-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Network-and-port-requirements.html" id="network_and_port_requirements-d62e208-link">Network and port requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="Environment_sizing_guidelines-d62e228" class="topicref" data-id="Environment_sizing_guidelines" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Environment-sizing-guidelines.html" id="Environment_sizing_guidelines-d62e228-link">Environment sizing guidelines</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="Stack-provisioning-prerequisites-d62e238" class="topicref" data-id="Stack-provisioning-prerequisites" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Stack-provisioning-prerequisites.html" id="Stack-provisioning-prerequisites-d62e238-link">Stack-provisioning prerequisites</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="license_usage_metrics-d62e248" class="topicref" data-id="license_usage_metrics" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/License-usage-metrics.html" id="license_usage_metrics-d62e248-link">License usage metrics</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="security-d62e258" class="topicref" data-id="security" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action security-d62e258-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Concepts/Security.html" id="security-d62e258-link">Security</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Planning for deployment</h1>
+    
+    <div class="body taskbody"><p class="shortdesc"> </p>
+        <section class="section prereq">
+            <p class="p">When you plan a deployment of IBM StoredIQ, evaluate several infrastructure
+                considerations.</p>
+            <p class="p"> In addition to the information in this section, review the requirements detailed in
+                the IBM Software Product Compatibility Reports (SPCR) tool at: <a class="xref" href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=CC1291B0F4AF11E3ACBD4447721DA353" target="_blank">Software Product Compatibility Reports: StoredIQ
+                    7.6 </a></p>
+            <p class="p"> If you plan to use IBM StoredIQ for Legal Identification and Collection to create
+                and manage data boxes and data requests that are to be fulfilled by IBM StoredIQ,
+                also check the system requirements for StoredIQ for Legal at: <a class="xref" href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=8A0331A0C50D11E58D9C0D684F363D68" target="_blank">Software Product Compatibility Reports: StoredIQ
+                    for Legal 2.0.3</a>
+            </p>
+        </section>
+
+        <section class="section context">
+            <p class="p"><strong class="ph b"> Generate customized reports with the SPCR tool</strong></p>
+            <p class="p"> Go to the page at Software Product Compatibility Reports to create a high-level
+                report for supported operating systems, related software, hypervisors, and supported
+                translations for any product. You can also create an in-depth report to get detailed
+                system requirements, hardware requirements, and end of service information for each
+                product. You can search for a product in all of the report types and reports are
+                generated based on your query values. </p>
+            <p class="p"> The following report types are the most commonly generated reports from software
+                product compatibility reports: </p>
+            <dl class="dl">
+                
+                    <dt class="dt dlterm">Detailed system requirements</dt>
+                    <dd class="dd">When you select your product version for the detailed system requirements
+                        report, you can set a report filter for <strong class="ph b">Operating system platforms</strong>,
+                            <strong class="ph b">Product components</strong>, and <strong class="ph b">Capabilities</strong>, including
+                        prerequisites and support software. After you view the report, you can save
+                        it as a URL to generate anytime or download it as a PDF.</dd>
+                
+                
+                    <dt class="dt dlterm">Hardware requirements</dt>
+                    <dd class="dd">When you select your product version for the hardware requirements report,
+                        you can set a report filter by the <strong class="ph b">Operating system families</strong> option.
+                        Set the operating system filter by selecting some or all of the operating
+                        systems that are supported by your product. After you view the report, you
+                        can save it as a URL to generate anytime or download it as a PDF. </dd>
+                
+                
+                    <dt class="dt dlterm">End of service</dt>
+                    <dd class="dd">The end of service report shows the service window of the products that you specify over an eight- year span. For example, you can find out when your product is scheduled to go out of service.
+                    </dd>
+                
+            </dl>
+        </section>
+
+        <section><div class="li step p">
+
+                <span class="ph cmd"> </span><br />
+            </div></section>
+    </div>
+
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

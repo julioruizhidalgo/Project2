@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="network_and_port_requirements">
+    <title>Network and port requirements</title>
+    <shortdesc/>
+    <conbody>
+        <p>For proper communication, the IBM StoredIQ components must be able to connect to each
+            other.</p>
+        <p> You must enable network connectivity from the following locations: </p>
+        <ul>
+            <li>The data server IP address to the gateway IP address on port 11103</li>
+            <li>The gateway IP address to and from the application stack IP address on port 8765 and
+                5432</li>
+            <li> Ports 80, 443, and 22 from the administrative workstation to the application stack
+                and data server IP addresses </li>
+            <li>Port 22 from the administrative workstation to the gateway IP address</li>
+        </ul>
+        <div> </div>
+    </conbody>
+    <concept id="tcp">
+        <title>TCP: port ranges for the firewall</title>
+        <conbody>
+            <p>To ensure the network access for desktop volumes, the following port ranges must be
+                open through a firewall.</p>
+            <ul>
+                <li>21000-21004</li>
+                <li>21100-21101</li>
+                <li>21110-21130</li>
+                <li>21200-21204</li>
+            </ul>
+        </conbody>
+    </concept>
+    <concept id="default_open_ports">
+        <title>Default open ports</title>
+        <conbody>
+            <div>
+                <p>
+                    <b>SSH port 22</b>
+                </p>
+                <p>By default, port 22 is open on all IBM StoredIQ hosts. The port is used for
+                    Secure Shell (SSH) communication and allows remote administration access to the
+                    VM. In general, traffic is encrypted using password authentication. To add a
+                    layer of security, you can establish key-based authentication for passwordless
+                    SSH logins to any of the IBM StoredIQ nodes in your environment as described in
+                    “Configuring SSH key-based authentication” on page 45.</p>
+            </div>
+            <ul>
+                <li>
+                    <table conkeyref="tables/table_1" id="table_hry_xgl_vjb">
+                        <tgroup cols="1">
+                            <tbody>
+                                <row>
+                                    <entry/>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </li>
+                <li>
+                    <table conkeyref="tables/table_2" id="table_ftf_zgl_vjb">
+                        <tgroup cols="1">
+                            <tbody>
+                                <row>
+                                    <entry/>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </li>
+
+                <li>
+                    <div id="Enable_disable_ports_or_services_on_the_IBM_StoredIQ_data_server">
+                        <p><b>
+                            Enable or disable ports or services on the IBM StoredIQ data server
+                        </b></p>
+                        <p> To manage ports, you can use the
+                                /usr/local/storediq/bin/util/port_handler.pyc script with the
+                                appropriate parameter: </p>
+                        <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -parameter</codeblock>
+                        <ul>
+                            <li>
+                                <p><b> -s </b></p>
+                                <p> To list the current rules in iptables </p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p><b> -l </b></p>
+                                <p> To list the supported services </p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p><b> -d port_number|'port_range' </b></p>
+                                <p> To delete a port or a range of port numbers from iptables, for
+                                    example: </p>
+                                <p>
+                                    <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299'
+                                    </codeblock>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p><b> -e 'service_name' </b></p>
+                                <p> To enable a specific service, for example, to enable HTTPS
+                                    services: </p>
+                                <p>
+                                    <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https'
+                                    </codeblock>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p><b> -d 'service_name </b></p>
+                                <p> To disable a specific service, for example, to disable HTTPS
+                                    services: </p>
+                                <p>
+                                    <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'                        </codeblock>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <table conkeyref="tables/table_3" id="table_shg_jhl_vjb">
+                        <tgroup cols="1">
+                            <tbody>
+                                <row>
+                                    <entry/>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </li>
+                <li>
+                    <table conkeyref="tables/table_4" id="table_pjj_khl_vjb">
+                        <tgroup cols="1">
+                            <tbody>
+                                <row>
+                                    <entry/>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </li>
+                <li>
+                    <div id="Supported_chain_and_rules_on-the_IBM_StoredIQ_gateway">
+                        <p><b>Supported chain and rules on the IBM StoredIQ gateway</b></p>
+                        <p>In iptables, the following firewall and chain rules are
+                            defined:</p>
+                        <codeblock>
+                            'PROD-transport':['5434','8765','7766','11102','11103','11104'],
+                            'PROD-https':['443'],
+                            'PROD-ssh':['22'],
+                            'PROD-web':['80'],
+                            'PROD-postgres':[’5432’]
+                            
+                        </codeblock>
+                        <codeblock>
+  'desktop' service:
+                            'PROD-broker':['21000'],
+                            'PROD-collectionsvc':['21300:21399'],
+                            'PROD-desktopupgrade':['21004'],
+                            'PROD-objlistmgr':['21100:21199'],
+                            'PROD-objlistsvc':['21200:21299'],
+                            'PROD-registration':['21001'],
+                            'PROD-session':['21002'],
+                            'PROD-task':['21003'],</codeblock>
+                    </div>
+                </li>
+                <li> </li>
+
+            </ul>
+
+        </conbody>
+
+    </concept>
+
+
+</concept>

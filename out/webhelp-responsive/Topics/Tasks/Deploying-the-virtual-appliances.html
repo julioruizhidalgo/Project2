@@ -1,0 +1,207 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" content="Use VMware vSphere Client to deploy the virtual appliances to an ESX server. Deploy OVAs for the gateway, the data server, and the application stack, preferably in this order. If an Elasticsearch ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="task" /><meta name="DC.relation" scheme="URI" content="../../Topics/Tasks/Deploying-IBM-StoredIQ.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="Deploying-the-virtual-appliances" /><title>Deploying the virtual appliances</title><!--  Generated with Oxygen version 21.1, build number 2019083011.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="Deploying-the-virtual-appliances-d62e290" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2019083011" /><script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script><script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen-red.css?buildId=2019083011" /></head>
+
+    <body id="Deploying-the-virtual-appliances" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Project 2</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="cover-page-d62e48-mi" data-tocid="cover-page-d62e48" data-state="leaf" class=" topicref " data-id="cover-page"><span class="title"><a href="../../Topics/Concepts/Cover-page.html">IBM StoredIQ</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="about-this-publicaton-d62e61-mi" data-tocid="about-this-publicaton-d62e61" data-state="not-ready" class=" topicref " data-id="about-this-publicaton"><span class="title"><a href="../../Topics/Concepts/About-this-Publicaton.html">About this Publication</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="ibm-ctorediq-components-d62e95-mi" data-tocid="ibm-ctorediq-components-d62e95" data-state="not-ready" class=" topicref " data-id="ibm-ctorediq-components"><span class="title"><a href="../../Topics/Concepts/IBM-StoredIQ-Components.html">IBM StoredIQ components</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="planning_for_deployment-d62e189-mi" data-tocid="planning_for_deployment-d62e189" data-state="not-ready" class=" topicref " data-id="planning_for_deployment"><span class="title"><a href="../../Topics/Tasks/Planning-for-deployment.html">Planning for deployment</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="deploying_ibm_toredIQ-d62e280-mi" data-tocid="deploying_ibm_toredIQ-d62e280" data-state="not-ready" class=" topicref " data-id="deploying_ibm_toredIQ"><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ.html">Deploying IBM StoredIQ</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="deploying_ibm_toredIQ-d62e280" class="topicref" data-id="deploying_ibm_toredIQ" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action deploying_ibm_toredIQ-d62e280-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ.html" id="deploying_ibm_toredIQ-d62e280-link">Deploying IBM StoredIQ</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" class="active"><span data-tocid="Deploying-the-virtual-appliances-d62e290" class="topicref" data-id="Deploying-the-virtual-appliances" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Deploying-the-virtual-appliances.html" id="Deploying-the-virtual-appliances-d62e290-link">Deploying the virtual appliances</a></span></span></li><li role="treeitem"><span data-tocid="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V-d62e298" class="topicref" data-id="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.html" id="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V-d62e298-link">Deploying IBM StoredIQ on Microsoft Hyper-V</a></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Deploying the virtual appliances</h1>
+    
+
+
+    <div class="body taskbody"><div class="abstract">Use VMware vSphere Client to deploy the virtual appliances to an ESX server. Deploy
+        OVAs for the gateway, the data server, and the application stack, preferably in this order.
+        If an Elasticsearch cluster is also being deployed, those OVAs must be deployed
+        first.</div>
+
+        <section class="section prereq"><p class="p">Ensure that all prerequisites for the deployment described in the planning
+                section are met and that the required software packages are available on your local
+                system before you start this task.</p>
+            <p class="p">Download the latest version of IBM StoredIQ from either IBM Fix Central or IBM
+                Passport Advantage®. For information about the package names and part numbers and
+                the links to the proper download locations, see the download document.</p>
+        </section>
+        <section class="section context">
+            <p class="p">The number of Elasticsearch OVAs deployed depends on the planned size of your
+                Elasticsearch cluster. The default setup is a three-node cluster. Each Elasticsearch
+                node requires a separate OVA deployment.</p>
+            <p class="p">The number of data server OVAs deployed depends on the number of data servers needed.
+                Each data server requires a separate OVA deployment.</p>
+        </section>
+
+        <section><ol class="ol steps"><li class="li step">
+                <span class="ph cmd">Connect to the ESX server or vCenter server.</span>
+            </li><li class="li step">
+                <span class="ph cmd">Open VMware vSphere Client.</span>
+            </li><li class="li step">
+                <span class="ph cmd">Select <strong class="ph b">File</strong> &gt; <strong class="ph b">Deploy OVF Template</strong>.</span>
+            </li><li class="li step">
+                <span class="ph cmd">Within the <strong class="ph b">Deploy OVF Template </strong>wizard, complete these steps. </span>
+                <ol type="a" class="ol substeps">
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Within the <strong class="ph b">Select source</strong> page, click <strong class="ph b">Local file</strong>, and then
+                            browse to and select the appropriate OVF. Click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Within the <strong class="ph b">Review details</strong> page, review the OVF template
+                            details.</span>
+                        <div class="itemgroup info">These storage requirements are critical and will be used to select a
+                            data store during deployment. Click <strong class="ph b">Next</strong> to proceed.</div>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Within the <strong class="ph b">Select name and folder</strong> page, enter a name for the
+                            deployed template or use the default name. Click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Within the <strong class="ph b">Select a resource </strong>page, select the resource pool
+                            where the deployed OVF template runs. Click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Within the <strong class="ph b">Select storage</strong> page, select a data store on which to
+                            store the deployed OVF template files. Click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Within the <strong class="ph b">Disk Format</strong> list, select the disk format to be
+                            deployed. Note that although <strong class="ph b">Thin Provision</strong> saves disk space, it
+                            can negatively affect performance. If possible, select <strong class="ph b">Thick
+                                Provision Lazy Zeroed</strong>. Click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Within the <strong class="ph b">Network Mapping</strong>, map the network to the appropriate
+                            network. Click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Within the <strong class="ph b">Ready to Complete</strong> page, review the deployment
+                            settings. Click <strong class="ph b">Finish</strong> to complete the Deploy OVF Template.</span>
+                        <div class="itemgroup info"> At this point, you can select the <strong class="ph b">Power on</strong> check box to turn
+                            on the VM after deployment is complete. </div>
+                        <div class="itemgroup info">If your IBM StoredIQ environment includes an
+                            Elasticsearch cluster, do not select this option when you're deploying
+                            the data server OVA. The Elasticsearch cluster setup must be complete
+                            before you run the data server first-boot process. </div>
+                    </li>
+                </ol>
+
+
+            </li><li class="li step">
+                <span class="ph cmd">Repeat steps 3 and 4 for each OVA.</span>
+            </li></ol></section>
+        <section class="section postreq">
+            Configure the components of your IBM StoredIQ environment in this order:
+            <ol class="ol">
+                <li class="li">Elasticsearch cluster (if applicable)</li>
+                <li class="li">Gateway</li>
+                <li class="li">One or more data servers</li>
+                <li class="li">Application stack</li>
+            </ol>
+        </section>
+    </div>
+    
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

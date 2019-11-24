@@ -1,0 +1,248 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" content="As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data server, and application stack can be installed on Microsoft Hyper-V. This option is not supported for the Elasticsearch ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="task" /><meta name="DC.relation" scheme="URI" content="../../Topics/Tasks/Deploying-IBM-StoredIQ.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V" /><title>Deploying IBM StoredIQ on Microsoft Hyper-V</title><!--  Generated with Oxygen version 21.1, build number 2019083011.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V-d62e298" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2019083011" /><script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script><script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen-red.css?buildId=2019083011" /></head>
+
+    <body id="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Project 2</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="cover-page-d62e48-mi" data-tocid="cover-page-d62e48" data-state="leaf" class=" topicref " data-id="cover-page"><span class="title"><a href="../../Topics/Concepts/Cover-page.html">IBM StoredIQ</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="about-this-publicaton-d62e61-mi" data-tocid="about-this-publicaton-d62e61" data-state="not-ready" class=" topicref " data-id="about-this-publicaton"><span class="title"><a href="../../Topics/Concepts/About-this-Publicaton.html">About this Publication</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="ibm-ctorediq-components-d62e95-mi" data-tocid="ibm-ctorediq-components-d62e95" data-state="not-ready" class=" topicref " data-id="ibm-ctorediq-components"><span class="title"><a href="../../Topics/Concepts/IBM-StoredIQ-Components.html">IBM StoredIQ components</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="planning_for_deployment-d62e189-mi" data-tocid="planning_for_deployment-d62e189" data-state="not-ready" class=" topicref " data-id="planning_for_deployment"><span class="title"><a href="../../Topics/Tasks/Planning-for-deployment.html">Planning for deployment</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="deploying_ibm_toredIQ-d62e280-mi" data-tocid="deploying_ibm_toredIQ-d62e280" data-state="not-ready" class=" topicref " data-id="deploying_ibm_toredIQ"><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ.html">Deploying IBM StoredIQ</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="deploying_ibm_toredIQ-d62e280" class="topicref" data-id="deploying_ibm_toredIQ" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action deploying_ibm_toredIQ-d62e280-link" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ.html" id="deploying_ibm_toredIQ-d62e280-link">Deploying IBM StoredIQ</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="Deploying-the-virtual-appliances-d62e290" class="topicref" data-id="Deploying-the-virtual-appliances" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Deploying-the-virtual-appliances.html" id="Deploying-the-virtual-appliances-d62e290-link">Deploying the virtual appliances</a></span></span></li><li role="treeitem" class="active"><span data-tocid="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V-d62e298" class="topicref" data-id="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.html" id="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V-d62e298-link">Deploying IBM StoredIQ on Microsoft Hyper-V</a></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Deploying IBM StoredIQ on Microsoft Hyper-V</h1>
+    
+
+
+
+    <div class="body taskbody"><div class="abstract">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data
+        server, and application stack can be installed on Microsoft Hyper-V. This option is not
+        supported for the Elasticsearch virtual appliance.</div>
+        <section class="section prereq">Installing IBM StoredIQ on Microsoft Hyper-V requires the use of third-party
+            software. For the procedure described here, the following software prerequisites must be
+            met: <ul class="ul">
+                <li class="li">Microsoft Hyper-V Manager must be installed on a Windows system.</li>
+                <li class="li">7-zip for Windows or tar for the Linux operating system must be available to
+                    extract contents of the OVA.</li>
+                <li class="li">7-zip for Windows or gunzip for the Linux operating system must be installed to
+                    decompress the vmdk.gz file.</li>
+                <li class="li">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be
+                    installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx
+                    files.</li>
+            </ul>
+        </section>
+        <section class="section context">
+            <p class="p">Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be
+                built manually.</p>
+            <p class="p">Consider the following instructions a sample procedure. The instructions might differ
+                depending on the version of the third-party software.</p>
+            <p class="p">Complete these steps for the gateway, the data server, and the AppStack:</p>
+        </section>
+
+        <section><ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">Extract the vmdk file from the OVA. </span>
+                <ol type="a" class="ol substeps">
+                    <li class="li substep">
+                        <span class="ph cmd">Download the OVA.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Extract the contents of the OVA by using 7-zip for Windows or tar for
+                            the Linux operating system.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for
+                            Linux.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Delete everything except the vmdk file when the OVA extraction is
+                            complete.</span>
+                    </li>
+                </ol>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file.</span>
+                <div class="itemgroup info"> For instructions about converting .vmdk files to .vhdx files, see the
+                    following links: <ul class="ul">
+                        <li class="li"><a class="xref" href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn874008(v=ws.11)?redirectedfrom=MSDN" target="_blank">Use Microsoft Virtual Machine
+                                Converter</a></li>
+                        <li class="li"><a class="xref" href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/virtualization/sect-virtualization-tips_and_tricks-using_qemu_img" target="_blank">Using qemu-img</a></li>
+                    </ul></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Build a virtual machine.</span>
+                <ol type="a" class="ol substeps">
+                    <li class="li substep">
+                        <span class="ph cmd">Select <strong class="ph b">New Virtual Machine </strong>&gt; <strong class="ph b">Next</strong> from Hyper-V
+                            Manager.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Enter the name of the virtual machine in the <strong class="ph b">Specify Name and
+                                Location</strong> window and click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select <strong class="ph b">Generation of the machine</strong> in the <strong class="ph b">Specify
+                                Generation</strong> window.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Enter the startup memory in the <strong class="ph b">Assign Memory</strong> window.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select the correct network in the <strong class="ph b">Configure Network</strong> window and
+                            click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select <strong class="ph b">Use an existing virtual hard disk</strong> in the <strong class="ph b">Connect
+                                Virtual Hard Disk</strong> window. Search the disk location, select one
+                            of the primary disks, and then click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click <strong class="ph b">Finish</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Repeat these previous steps for all IBM StoredIQ disks.</span>
+                    </li>
+                </ol>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Optional: Add disks.</span>
+                <ol type="a" class="ol substeps">
+                    <li class="li substep">
+                        <span class="ph cmd">Select a virtual machine in Microsoft Hyper-V Manager.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select the settings for the virtual machine under <strong class="ph b">Actions</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select the IDE controller and highlight Hard Drive in the
+                                <strong class="ph b">Settings</strong> window.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select Hard Drive and virtual hard disk and click <strong class="ph b">New</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click <strong class="ph b">Next</strong> in the New Virtual Hard Disk wizard.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select <strong class="ph b">VHDX</strong> in Choose Disk Format and then click
+                            <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select <strong class="ph b">Dynamically expanding</strong> in Choose Disk Type and then click
+                                <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Enter a name for the disk in the <strong class="ph b">Specify Name and Location</strong>
+                            window and the click <strong class="ph b">Next</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select <strong class="ph b">Create a new blank virtual hard disk</strong> and enter a size in
+                            the <strong class="ph b">Configure Disk </strong>window and then click <strong class="ph b">Finish</strong>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Repeat this procedure for all additional disks.</span>
+                    </li>
+                </ol>
+            </li></ol></section>
+        <section class="section postreq">Complete the installation process by following the instructions in “Configuring IBM StoredIQ” on page 22.</section>
+    </div>
+    
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

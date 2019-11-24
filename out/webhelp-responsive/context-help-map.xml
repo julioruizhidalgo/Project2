@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="cover-page" path="Topics/Concepts/Cover-page.html"/>
+   <appContext helpID="about-this-publicaton"
+               path="Topics/Concepts/About-this-Publicaton.html"/>
+   <appContext helpID="Product-Library" path="Topics/Concepts/Product-Library.html"/>
+   <appContext helpID="Contacting-Customer-Support"
+               path="Topics/Tasks/Contacting-Customer-Support.html"/>
+   <appContext helpID="ibm-ctorediq-components"
+               path="Topics/Concepts/IBM-StoredIQ-Components.html"/>
+   <appContext helpID="solution-components"
+               path="Topics/References/Solution-components.html"/>
+   <appContext helpID="applications-of-ibm-storediq"
+               path="Topics/Concepts/Applications-of-IBM-StoredIQ.html"/>
+   <appContext helpID="ibm_storediq_data_server"
+               path="Topics/Concepts/IBM-StoredIQ-Data-Server.html"/>
+   <appContext helpID="ibm_storediq_administrator"
+               path="Topics/Concepts/IBM-StoredIQ-Administrator.html"/>
+   <appContext helpID="ibm-storediq_data_workbench"
+               path="Topics/Concepts/IBM-StoredIQ-Data-Workbench.html"/>
+   <appContext helpID="ibm_storediq_insights"
+               path="Topics/Concepts/IBM-StoredIQ-Insights.html"/>
+   <appContext helpID="ibm_storediq_policy_manager"
+               path="Topics/Concepts/IBM-StoredIQ-Policy-Manager.html"/>
+   <appContext helpID="imb_storedid_desktop_data_collector"
+               path="Topics/Concepts/IBM-StoredIQ-Desktop-Data-Collector.html"/>
+   <appContext helpID="planning_for_deployment"
+               path="Topics/Tasks/Planning-for-deployment.html"/>
+   <appContext helpID="Open-Virtual-Appliance-OVA-configuration-requirements"
+               path="Topics/Concepts/Open-Virtual-Appliance-OVA-configuration-requirements.html"/>
+   <appContext helpID="network_and_port_requirements"
+               path="Topics/Concepts/Network-and-port-requirements.html"/>
+   <appContext helpID="Openports-for-desktop-client-access-to-the-data-server"
+               path="Topics/Tasks/Openports-for-desktop-client-access-to-the-data-server.html"/>
+   <appContext helpID="Environment_sizing_guidelines"
+               path="Topics/Tasks/Environment-sizing-guidelines.html"/>
+   <appContext helpID="Stack-provisioning-prerequisites"
+               path="Topics/Tasks/Stack-provisioning-prerequisites.html"/>
+   <appContext helpID="license_usage_metrics"
+               path="Topics/Concepts/License-usage-metrics.html"/>
+   <appContext helpID="security" path="Topics/Concepts/Security.html"/>
+   <appContext helpID="default_user_accounts"
+               path="Topics/Concepts/Default-user-accounts.html"/>
+   <appContext helpID="deploying_ibm_toredIQ"
+               path="Topics/Tasks/Deploying-IBM-StoredIQ.html"/>
+   <appContext helpID="Deploying-the-virtual-appliances"
+               path="Topics/Tasks/Deploying-the-virtual-appliances.html"/>
+   <appContext helpID="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V"
+               path="Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.html"/>
+</map>

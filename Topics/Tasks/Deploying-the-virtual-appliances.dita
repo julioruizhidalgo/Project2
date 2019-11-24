@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Deploying-the-virtual-appliances">
+    <title>Deploying the virtual appliances</title>
+    <abstract>Use VMware vSphere Client to deploy the virtual appliances to an ESX server. Deploy
+        OVAs for the gateway, the data server, and the application stack, preferably in this order.
+        If an Elasticsearch cluster is also being deployed, those OVAs must be deployed
+        first.</abstract>
+
+
+    <taskbody>
+
+        <prereq><p>Ensure that all prerequisites for the deployment described in the planning
+                section are met and that the required software packages are available on your local
+                system before you start this task.</p>
+            <p>Download the latest version of IBM StoredIQ from either IBM Fix Central or IBM
+                Passport Advantage®. For information about the package names and part numbers and
+                the links to the proper download locations, see the download document.</p>
+        </prereq>
+        <context>
+            <p>The number of Elasticsearch OVAs deployed depends on the planned size of your
+                Elasticsearch cluster. The default setup is a three-node cluster. Each Elasticsearch
+                node requires a separate OVA deployment.</p>
+            <p>The number of data server OVAs deployed depends on the number of data servers needed.
+                Each data server requires a separate OVA deployment.</p>
+        </context>
+
+        <steps>
+            <step>
+                <cmd>Connect to the ESX server or vCenter server.</cmd>
+            </step>
+            <step>
+                <cmd>Open VMware vSphere Client.</cmd>
+            </step>
+            <step>
+                <cmd>Select <b>File</b> > <b>Deploy OVF Template</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Within the <b>Deploy OVF Template </b>wizard, complete these steps. </cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Within the <b>Select source</b> page, click <b>Local file</b>, and then
+                            browse to and select the appropriate OVF. Click <b>Next</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Within the <b>Review details</b> page, review the OVF template
+                            details.</cmd>
+                        <info>These storage requirements are critical and will be used to select a
+                            data store during deployment. Click <b>Next</b> to proceed.</info>
+                    </substep>
+                    <substep>
+                        <cmd>Within the <b>Select name and folder</b> page, enter a name for the
+                            deployed template or use the default name. Click <b>Next</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Within the <b>Select a resource </b>page, select the resource pool
+                            where the deployed OVF template runs. Click <b>Next</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Within the <b>Select storage</b> page, select a data store on which to
+                            store the deployed OVF template files. Click <b>Next</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Within the <b>Disk Format</b> list, select the disk format to be
+                            deployed. Note that although <b>Thin Provision</b> saves disk space, it
+                            can negatively affect performance. If possible, select <b>Thick
+                                Provision Lazy Zeroed</b>. Click <b>Next</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Within the <b>Network Mapping</b>, map the network to the appropriate
+                            network. Click <b>Next</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Within the <b>Ready to Complete</b> page, review the deployment
+                            settings. Click <b>Finish</b> to complete the Deploy OVF Template.</cmd>
+                        <info> At this point, you can select the <b>Power on</b> check box to turn
+                            on the VM after deployment is complete. </info>
+                        <info importance="high">If your IBM StoredIQ environment includes an
+                            Elasticsearch cluster, do not select this option when you're deploying
+                            the data server OVA. The Elasticsearch cluster setup must be complete
+                            before you run the data server first-boot process. </info>
+                    </substep>
+                </substeps>
+
+
+            </step>
+            <step>
+                <cmd>Repeat steps 3 and 4 for each OVA.</cmd>
+            </step>
+        </steps>
+        <postreq>
+            Configure the components of your IBM StoredIQ environment in this order:
+            <ol>
+                <li>Elasticsearch cluster (if applicable)</li>
+                <li>Gateway</li>
+                <li>One or more data servers</li>
+                <li>Application stack</li>
+            </ol>
+        </postreq>
+    </taskbody>
+    
+</task>

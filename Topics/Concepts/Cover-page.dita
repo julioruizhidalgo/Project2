@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="cover-page">
+    <title>IBM StoredIQ</title>
+    <shortdesc>Deployment and Configuration Guide</shortdesc>
+    <conbody>
+        <p>
+            <image conkeyref="images/image_logo"/>
+        </p>
+        
+    </conbody>
+</concept>

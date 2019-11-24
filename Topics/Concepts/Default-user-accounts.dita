@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="default_user_accounts">
+    <title>Default user accounts</title>
+    <shortdesc/>
+
+    <conbody>
+        <p>IBM StoredIQ comes with a set of default user accounts.</p>
+
+        <hazardstatement>
+            <messagepanel>
+                <typeofhazard/>
+                <howtoavoid>For security reasons, change the passwords for these default accounts
+                    after the installation is complete so that they are unique and different from
+                    the default values. The new password must be 8 to 64 characters long and must
+                    contain characters from at least three of these categories:
+                    <sl>
+                        <sli>Uppercase letters: A - Z</sli>
+                        <sli>Lowercase letters: a - z</sli>
+                        <sli>Digits: 0 - 9</sli>
+                        <sli>Punctuation marks or special characters: . : = * ˆ / $ # _ + @ &amp; % -</sli>
+                    </sl>
+                </howtoavoid>
+            </messagepanel>
+        </hazardstatement>
+
+<table conkeyref="tables/table_5">
+    <tgroup cols="1">
+        <tbody>
+            <row>
+                <entry></entry>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+    </conbody>
+    
+</concept>

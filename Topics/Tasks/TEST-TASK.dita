@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="Task1">
+<task id="TEST-TASK">
     <title></title>
     <shortdesc></shortdesc>
+    <prolog></prolog>
     <taskbody>
         <context>
-            <p></p>
+            
         </context>
         <steps>
             <step>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/webhelp-responsive?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/webhelp-responsive/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Map//EN?><?doctype-system map.dtd?><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- map/map " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="map:1;3:6" cascade="merge">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="title:1;4:12">Project 2</title>
+    <topicref href="SecondMap.ditamap" format="ditamap" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:1;5:58"/>
+    <topicref href="Topics/Concepts/Cover-page.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:2;6:55"/>
+    <topicref href="Topics/Concepts/About-this-Publicaton.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:3;7:65">
+        <topicref href="Topics/Concepts/Product-Library.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:4;8:64"/>
+        <topicref href="Topics/Tasks/Contacting-Customer-Support.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:5;9:73"/>
+    </topicref>
+
+    <topicref href="Topics/Concepts/IBM-StoredIQ-Components.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:6;12:67">
+        <topicref href="Topics/References/Solution-components.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:7;13:69"> </topicref>
+
+        <topicref href="Topics/Concepts/Applications-of-IBM-StoredIQ.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:8;15:76">
+            <topicref href="Topics/Concepts/IBM-StoredIQ-Data-Server.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:9;16:77"/>
+            <topicref href="Topics/Concepts/IBM-StoredIQ-Administrator.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:10;17:79"/>
+            <topicref href="Topics/Concepts/IBM-StoredIQ-Data-Workbench.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:11;18:80"/>
+            <topicref href="Topics/Concepts/IBM-StoredIQ-Insights.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:12;19:74"/>
+            <topicref href="Topics/Concepts/IBM-StoredIQ-Policy-Manager.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:13;20:80"/>
+            <topicref href="Topics/Concepts/IBM-StoredIQ-Desktop-Data-Collector.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:14;21:87"> </topicref>
+
+
+        </topicref>
+       
+    </topicref>
+    <topicref href="Topics/Tasks/Planning-for-deployment.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:15;27:64">
+        <topicref href="Topics/Concepts/Open-Virtual-Appliance-OVA-configuration-requirements.dita" class="- map/topicref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/MainMap.ditamap" xtrc="topicref:16;29:96"/>
+    </topicref>
+</map>

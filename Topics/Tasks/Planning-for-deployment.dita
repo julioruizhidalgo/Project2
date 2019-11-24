@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="planning_for_deployment">
+    <title>Planning for deployment</title>
+    <shortdesc> </shortdesc>
+    <taskbody>
+        <prereq>
+            <p>When you plan a deployment of IBM StoredIQ, evaluate several infrastructure
+                considerations.</p>
+            <p> In addition to the information in this section, review the requirements detailed in
+                the IBM Software Product Compatibility Reports (SPCR) tool at: <xref
+                    href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=CC1291B0F4AF11E3ACBD4447721DA353"
+                    format="html" scope="external">Software Product Compatibility Reports: StoredIQ
+                    7.6 </xref></p>
+            <p> If you plan to use IBM StoredIQ for Legal Identification and Collection to create
+                and manage data boxes and data requests that are to be fulfilled by IBM StoredIQ,
+                also check the system requirements for StoredIQ for Legal at: <xref
+                    href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=8A0331A0C50D11E58D9C0D684F363D68"
+                    format="html" scope="external">Software Product Compatibility Reports: StoredIQ
+                    for Legal 2.0.3</xref>
+            </p>
+        </prereq>
+
+        <context>
+            <p><b> Generate customized reports with the SPCR tool</b></p>
+            <p> Go to the page at Software Product Compatibility Reports to create a high-level
+                report for supported operating systems, related software, hypervisors, and supported
+                translations for any product. You can also create an in-depth report to get detailed
+                system requirements, hardware requirements, and end of service information for each
+                product. You can search for a product in all of the report types and reports are
+                generated based on your query values. </p>
+            <p> The following report types are the most commonly generated reports from software
+                product compatibility reports: </p>
+            <dl>
+                <dlentry>
+                    <dt>Detailed system requirements</dt>
+                    <dd>When you select your product version for the detailed system requirements
+                        report, you can set a report filter for <b>Operating system platforms</b>,
+                            <b>Product components</b>, and <b>Capabilities</b>, including
+                        prerequisites and support software. After you view the report, you can save
+                        it as a URL to generate anytime or download it as a PDF.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Hardware requirements</dt>
+                    <dd>When you select your product version for the hardware requirements report,
+                        you can set a report filter by the <b>Operating system families</b> option.
+                        Set the operating system filter by selecting some or all of the operating
+                        systems that are supported by your product. After you view the report, you
+                        can save it as a URL to generate anytime or download it as a PDF. </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>End of service</dt>
+                    <dd>The end of service report shows the service window of the products that you specify over an eight- year span. For example, you can find out when your product is scheduled to go out of service.
+                    </dd>
+                </dlentry>
+            </dl>
+        </context>
+
+        <steps>
+            <step>
+
+                <cmd> </cmd>
+            </step>
+        </steps>
+    </taskbody>
+
+</task>

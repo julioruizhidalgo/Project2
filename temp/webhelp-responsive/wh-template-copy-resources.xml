@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project basedir="/Applications/Oxygen XML Editor/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen" name="Copy template resources" default="copy-template-resources">
+    <target name="copy-template-resources">
+        <mkdir dir="/Users/julioruiz/Desktop/Workspace/Publication/Project2/out/webhelp-responsive/oxygen-webhelp/template"/>
+        <copy todir="/Users/julioruiz/Desktop/Workspace/Publication/Project2/out/webhelp-responsive/oxygen-webhelp/template" overwrite="yes" failonerror="yes" verbose="yes">
+            <fileset dir=".">
+                <include name="oxygen.css"/>
+            </fileset>
+            <fileset dir=".">
+                <include name="resources/**/*"/>
+                <exclude name="resources/**/*.svn"/>
+                <exclude name="resources/**/*.git"/>
+            </fileset>
+        </copy>
+    </target>
+</project>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="security">
+    <title>Security</title>
+    <shortdesc/>
+    <conbody>
+        <p>Plan and implement specific security measures to protect the application and the data it
+            manages, especially when you deploy IBM StoredIQ into sensitive environments.</p>
+        <p>IBM StoredIQ keeps your data secure through encryption, security hardening, and
+            auditing.</p>
+        <div id="fips">
+            <p><b>Federal Information Processing Standard (FIPS)</b></p>
+            <p>FIPS is a standard recommended by the National Institute of Standards and Technology
+                (NIST) and the US Federal Government. It ensures certain security standards are met
+                for software or hardware components deployed at US government sites. Enabling FIPS
+                ensures that the SSL/TLS engine that is compliant with the US Government
+                recommendation is used. IBM StoredIQ supports FIPS Level 1.</p>
+            <p>Secure gateway communication can be enabled without FIPS. If FIPS is enabled, IBM
+                StoredIQ uses FIPS compliant versions of OpenSSL.</p>
+        </div>
+        <div id="secure_communication_and_encryption_of_data_in_motion">
+            <p><b> Secure communication and encryption of data in motion </b></p>
+            <p> In a production environment, you should configure or install certificates on the
+                AppStack to enable HTTPS communication and to enable encryption of data in motion
+                between the browser and the AppStack. You can to this during installation and
+                initial configuration or at any time afterward. For details, see the instructions
+                for configuring certificates. </p>
+            <p> The gateway handles the communication between the data servers and the application
+                stack. By default, the communication between the gateway, any data servers, and the
+                AppStack is in plain text and is not encrypted. If your enterprise security policy
+                mandates encryption of data in motion, enable secure gateway communication. In this
+                case, secure gateway communication must be configured on all three IBM StoredIQ
+                components. You can enable secure gateway communication during installation and
+                initial configuration or at any time afterward. For details, see “Managing the
+                status of secure gateway communication” on page 54. </p>
+            <p> IBM StoredIQ then uses stunnel to ensure secure communication between the
+                components. If your environment includes data servers of the type DataServer -
+                Distributed, stunnel can also be used to encrypt the communication between the nodes
+                within the Elasticsearch cluster but not for encrypting the communication between
+                the data server and the Elasticsearch cluster. </p>
+            <p>To secure the communication between the data server and the Elasticsearch cluster and
+                the communication within the Elasticsearch cluster likewise, you can enable Search
+                Guard. For more information, see “Securing Elasticsearch cluster communication with
+                Search Guard” on page 51. If you don't want to do that but still want to restrict
+                client access to port 9200 on the Elasticsearch nodes, you can set up the firewall
+                accordingly. For more information, see “Restricting access to port 9200 on
+                Elasticsearch nodes” on page 52.</p>
+            <p>If FIPS is not enabled, the following cipher suites and encryption algorithm are used
+                for data at rest:</p>
+            <ul>
+                <li>TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256</li>
+                <li>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</li>
+            </ul>
+            <p>You can configure these cipher suites in the configuration files listed in the list
+                of key and certificate files. However, if you run the utilities for enabling
+                stunnel, you might need to make the respective configuration changes again.</p>
+        </div>
+        <div id="encryption_of_data_at_rest">
+            <p><b>Encryption of data at rest</b></p>
+            <p>Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the
+                Elasticsearch indexes are stored is encrypted by default. IBM StoredIQ uses Linux
+                Unified Key Setup (LUKS) for disk encryption. For details about key management, see
+                “Key and certificate management” on page 41.</p>
+            <p>Optionally, you can encrypt the application data on the IBM StoredIQ application
+                stack. For more information, see “Enabling encryption of IBM StoredIQ AppStack
+                application data” on page 50.</p>
+        </div>
+        <div id="network_isolation">
+            <p><b>Network isolation</b></p>
+            <p>If full-text harvesting and Step-up Analytics actions (cartridges) are applied,
+                Elasticsearch indexes can contain potentially sensitive content. Therefore, you
+                should deploy the Elasticsearch nodes in an isolated location on the network (for
+                example, as an enclave or behind a firewall) that is properly secured according to
+                the sensitivity of the data being harvested. Only the IBM StoredIQ application stack
+                and data servers should be allowed to communicate with the Elasticsearch nodes.</p>
+            <p>Also, any data servers and the gateway should be deployed in an isolated network
+                location to allow for communication with authorized clients only.</p>
+        </div>
+        <div id="access_control">
+            <p><b>Access control</b></p>
+            <p>The following administrative accounts are required. The builder and siqadmin accounts
+                are IBM StoredIQ-specific accounts. For more information about these accounts, see
+                “Default user accounts” on page 17.</p>
+            <ul>
+                <li><b>root and builder accounts on the Elasticsearch cluster nodes </b><p> Remote
+                        login for root can be disabled. However, local root login is required,
+                        either log in as root or use the <b>su</b> command to obtain root
+                        permissions temporarily. </p>
+                    <p>You set the passwords for the root and builder accounts during the
+                        configuration process when you start the VM for the first time. You can
+                        change these passwords anytime.</p>
+                </li>
+                <li><b>siqadmin account on the AppStack</b>
+                    <p>Administration of the AppStack usually does not require direct root access.
+                        For day-to-day administration, the siqadmin account can be used.</p>
+                    <p>You set the password for the siqadmin account during the configuration
+                        process when you start the VM for the first time. You can change this
+                        password anytime. </p>
+                </li>
+            </ul>
+        </div>
+
+    </conbody>
+
+</concept>
