@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Open ports for desktop client access to the data server","href":"Topics\/Tasks\/Openports-for-desktop-client-access-to-the-data-server.html","attributes": {"data-id":"Openports-for-desktop-client-access-to-the-data-server",},"menu": {"hasChildren":false,},"tocID":"Openports-for-desktop-client-access-to-the-data-server-d62e220","topics":[]}]});

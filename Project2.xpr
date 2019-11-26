@@ -7,7 +7,7 @@
                 <serializableOrderedMap>
                     <entry>
                         <String>keys.context</String>
-                        <String>${pdu}/MainMap.ditamap</String>
+                        <String>${pdu}/Project2.xpr</String>
                     </entry>
                     <entry>
                         <String>scenario.associations</String>
@@ -15,6 +15,36 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>MainMap.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - Copy_1</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Topics/Concepts/License-usage-metrics.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - Copy_1</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Topics/Tasks/Contacting-Customer-Support.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Concepts?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Concepts/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="ibm_storediq_data_server" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Data-Server.dita" xtrc="concept:1;3:40">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Data-Server.dita" xtrc="title:1;4:12">IBM StoredIQ Data Server</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Data-Server.dita" xtrc="shortdesc:1;5:16">IBM StoredIQ Data Server user interface provides access to data server functionality.
+        It allows administrators to view the dashboard and see the status of the jobs and system
+        details. Administrators</shortdesc>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Data-Server.dita" xtrc="conbody:1;8:14">
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Data-Server.dita" xtrc="p:1;9:12">
+            <image placement="inline" class="- topic/image " scope="external" href="../../Resources/Images/2.IBM_StoredIQ_Data_Server.png" format="png" xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Images-Collection.dita" xtrc="image:2;13:39">
+            <alt class="- topic/alt " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Images-Collection.dita" xtrc="alt:2;14:18">IBM StoredIQ Data Server</alt>
+        </image>
+        </p>
+    </conbody>
+</concept>

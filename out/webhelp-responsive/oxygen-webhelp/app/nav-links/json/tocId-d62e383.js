@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"IBM StoredIQ Insights","href":"Topics\/Glossary\/Glossary_9.html#ai","attributes": {"data-id":"ai",},"menu": {"hasChildren":false,},"tocID":"ai-d62e384","topics":[]}]});

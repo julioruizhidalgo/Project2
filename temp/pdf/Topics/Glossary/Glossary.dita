@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/Topics/Glossary?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/Topics/Glossary/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Glossary Group//EN?><?doctype-system glossgroup.dtd?><glossgroup xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="Glossary" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossgroup/glossgroup " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossgroup:1;3:27">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="title:1;4:12">Glossary</title>
+    <glossentry id="aa" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:1;5:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:1;6:20">Application stack</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:1;7:19">An application stack is a suite or set of application programs that help in
+            performing a certain task. These applications are closely linked together and data can
+            be exported or imported among them with minimum steps.</glossdef>
+    </glossentry>
+    <glossentry id="ab" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:2;11:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:2;12:20">Auto-classification</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:2;13:19">Automated document categorization, what IBM StoredIQ refers to as auto-
+            classification models, integrates the IBM® Content Classification's classification model
+            into the IBM StoredIQ infoset-generation process. Data Experts can use IBM Content
+            Classification to train a classification model, which is then registered with IBM
+            StoredIQ Administrator. The registered classification model can be applied to an
+            existing infoset in IBM StoredIQ Data Workbench to generate new metadata for the objects
+            in the infoset. Metadata can be used in rule-based filters to create new infosets.
+        </glossdef>
+    </glossentry>
+    <glossentry id="ac" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:3;22:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:3;23:20">Cartridges</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:3;24:19">Cartridges are compressed files that contain analysis logic. When you add a
+            cartridge to IBM StoredIQ AppStack, it can detect new data in documents during indexing
+            and make these new insights searchable. For example, a sensitive pattern cartridge can
+            enable IBM StoredIQ to detect passport numbers, phone numbers, and other IDs.</glossdef>
+    </glossentry>
+    <glossentry id="ad" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:4;29:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:4;30:20">Connector API SDK</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:4;31:19"> A connector is a software component of IBM StoredIQ that is used to connect to a
+            data source such as a network file system and access its data. Using IBM StoredIQ
+            Connector API SDK, developers of other companies can develop connectors to new data
+            sources outside the IBM StoredIQ development environment. These connectors can be
+            integrated with a live IBM StoredIQ application to index, search, manage, and analyze
+            data on the data source.</glossdef>
+    </glossentry>
+    <glossentry id="ae" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:5;38:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:5;39:20">Database server</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:5;40:19">A database server is a server which uses a database application that provides
+            database services to other computer programs or to computers, as defined by the
+            client–server model.</glossdef>
+
+    </glossentry>
+    <glossentry id="af" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:6;45:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:6;46:20">DataServer - Distributed</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:6;47:19">The Distributed Data Server (DDS) provides the ability to serve multiple clients
+            in a single-server address space. This capability is used, for example, by RMF™
+            PM.</glossdef>
+    </glossentry>
+    <glossentry id="ag" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:7;51:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:7;52:20">DataServer - Classic</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:7;53:19">A Classic data server runs in its own address space. The Classic data server
+            performs all data access. </glossdef>
+    </glossentry>
+    <glossentry id="ah" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:8;56:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:8;57:20">Gateway</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:8;58:19">A gateway is a node (router) in a computer network, a key stopping point for data
+            on its way to or from other networks. Thanks to gateways, we are able to communicate and
+            send data back and forth. The Internet wouldn't be any use to us without gateways (as
+            well as a lot of other hardware and software).</glossdef>
+    </glossentry>
+    <glossentry id="ai" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic concept glossentry) (topic concept glossgroup) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic abbrev-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept glossentry/glossentry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossentry:9;63:25">
+        <glossterm class="- topic/title concept/title glossentry/glossterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossterm:9;64:20">IBM StoredIQ Insights</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Glossary/Glossary.dita" xtrc="glossdef:9;65:19">IBM StoredIQ Insights provides dynamic and interactive filtering for your data
+            with easy access to all metadata and instant plain-text preview of document content for
+            full-text indexed volumes.</glossdef>
+    </glossentry>
+</glossgroup>

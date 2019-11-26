@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="Contacting-Customer-Support">
-    <title>Contacting IBM StoredIQ customer support</title>
+<task id="Contacting-Customer-Support" audience="expert novice" product="product1 product2">
+    <title>Contacting IBM StoredIQ customer support </title>
     <shortdesc></shortdesc>
-
+<prolog>
+    <metadata>
+        <keywords>
+            <indexterm>Contact
+                <index-see>site</index-see>
+            </indexterm>
+        </keywords>
+    </metadata>
+</prolog>
     <taskbody>
 
         <context>
             <p>For IBM StoredIQ technical support or to learn about available service options,
-                contact IBM StoredIQ customer support at this phone number:</p>
+                <indexterm>contact</indexterm> IBM StoredIQ customer support at this phone number:</p>
             <p>
                 <ul>
                     <li id="supportphone">1-866-227-2068</li>
                 </ul>
             </p>
-            <p> Or, see the Contact IBM web site at http://www.ibm.com/contact/us/ </p>
+            <p> Or, see the Contact IBM web <indexterm>site</indexterm> at http://www.ibm.com/contact/us/ </p>
             <p><b>IBM Knowledge Center</b></p>
             <p>The IBM StoredIQ documentation is available in <xref
                     href="https://www.ibm.com/support/knowledgecenter/" format="html"

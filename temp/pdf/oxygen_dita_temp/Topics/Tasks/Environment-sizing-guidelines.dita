@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Tasks?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Tasks/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="Environment_sizing_guidelines" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="task:1;3:42">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="title:1;4:12">Environment sizing guidelines</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="shortdesc:1;5:16"/>
+    <prolog class="- topic/prolog " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="prolog:1;6:13">
+        <metadata class="- topic/metadata " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="metadata:1;7:19">
+            <keywords class="- topic/keywords " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="keywords:1;8:23">
+                <keyword class="- topic/keyword " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="keyword:1;9:26">DataServer</keyword>
+                <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="indexterm:1;10:28">DataServer
+                    <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="indexterm:2;11:32">Classic</indexterm>
+                    
+                </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="taskbody:1;17:15">
+        <context class="- topic/section task/context " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="context:1;18:18">
+            
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="p:1;20:16">To size an environment precisely, you must understand the factors such as harvest
+                frequency, complexity of the source, and use case scenarios that drive application use
+                and action execution.</p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="p:2;23:16">The general design guidelines for IBM StoredIQ are as follows:</p>
+            <ul class="- topic/ul " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="ul:1;24:17">
+                
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:1;26:21">For data servers of the type DataServer - Classic: <ul class="- topic/ul " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="ul:2;26:76">
+                    <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:2;27:25">One data server for up to 30 TBs of data (which can vary based on the number
+                        of volumes, objects per volume, and object types).</li>
+                    <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:3;29:25">Up to 500 volumes per data server. <note type="tip" class="- topic/note " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="note:1;29:77"> When you're sizing an
+                        environment that includes Sharepoint data sources, keep in mind that
+                        volumes must be defined at Sharepoint site collection level, not the
+                        Sharepoint server level. </note></li>
+                    <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:4;33:25">Up to 150 million objects per data server.</li>
+                </ul></li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:5;35:21">One gateway per 50 data servers.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:6;36:21">One application server.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:7;37:21">NFS is slightly faster than CIFS for metadata only, but assume CIFS/NFS even for
+                    this exercise.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:8;39:21">Full-content processing of file (for example, .ZIP, .RAR, .GZ) and email archive
+                    (.PST, .NSF, .EMX) processing are slower as items must be extracted from the
+                    archives. If there is a significant number of these files in the file system and
+                    they are not excluded from content processing, the full-content processing rate can
+                    be too high. Until you have an initial index of the file system, you do not know how
+                    to weigh full-content processing of archives.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:9;45:21">An object/time metric is appropriate for metadata only NOT computing a hash,
+                    membership in the National Institute of Standards and Technology (NIST) or
+                    enumerating objects that are contained in archives. Converting it to a bytes/time
+                    metric is a function of the average object size and might vary tremendously. An
+                    average object size of 250 KB was used for the metric that is provided earlier.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:10;50:21">A bytes/time metric is appropriate for metadata-only computing a hash and
+                    full-content processing. The object per second rate can vary tremendously depending
+                    on the object type and sizes encountered. For example, processing an email or file
+                    archive is much more expensive than a PDF document.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:11;54:21">Metadata-only not computing a hash, membership in the NIST list, or enumerating
+                    objects that are contained in archives is requesting only the file-attribute
+                    information from the NAS. Individual files are not opened and read. The processing
+                    rate is high, but that does not translate into a large amount of data that traverses
+                    a network between the NAS and data server. The bytes/time rate does not translate
+                    into bytes served by the NAS and sent over the network.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:12;60:21">Metadata-only computing a hash, membership in the NIST list, or enumerating objects
+                    that are contained in archives opens and reads the contents of each file. The
+                    content of all requested files traverses the network between the NAS and data
+                    server. The maximum load that the data server can place on a NAS is metadata-only
+                    processing. It requires all file content to be read to compute a hash or enumerate
+                    objects that are contained in archives. The bytes/time rate translates into bytes
+                    served up by the NAS and network traffic that must be considered.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:13;67:21">Full-content processing opens and reads the contents of each file to extract all
+                    text. The content of all requested files traverses the network between the NAS and
+                    data server. The processing time to enumerate archives, extract text, index words,
+                    and extract entities on the data server reduces the rate that data is requested from
+                    a NAS compared to metadata-only with full hash. The bytes/time rate translates into
+                    bytes served up by the NAS and network traffic that must be considered.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:14;73:21">The interrogator process count on the data server for "metadata only not reading all
+                    content indexing" is set to eight for optimal performance.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:15;75:21">The interrogator process count for all other processing that involves reading all
+                    content default setting is four per data server.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:16;77:21">The interrogator count can be viewed as the number of client connections that are
+                    made to a data source actively requesting data. It is important for capacity
+                    planning for the data source.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:17;80:21">The data servers are assumed to be "network close" to the NAS data sources. Network
+                    latency under 10 ms with at least 1000 Mbps bandwidth is assumed (connected through
+                    local area network). The data servers need a low latency high-bandwidth connection
+                    to a NAS data source for acceptable indexing performance.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="li:18;84:21">The gateway and application stack can be located remotely from the data servers.
+                    Network connections with latency greater than 10 ms and bandwidth of at least 2+
+                    Mbps are acceptable.</li>
+            </ul>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="steps:1;89:16">
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="step:1;90:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Environment-sizing-guidelines.dita" xtrc="cmd:1;91:22"/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

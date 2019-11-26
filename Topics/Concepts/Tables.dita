@@ -191,7 +191,7 @@
                 </tbody>
             </tgroup>
         </table>
-        <table frame="all" rowsep="1" colsep="1" id="table_4">
+        <table frame="all" rowsep="1" colsep="1" id="table_4" audience="expert">
             <title>Default open ports on the IBM StoredIQ gateway</title>
             <tgroup cols="3">
                 <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -256,7 +256,7 @@
                         <entry morerows="5">
                             <p>tcp </p>
                         </entry>
-                        <entry morerows="5">
+                        <entry morerows="5" >
                             <p>PROD-transport (IBM StoredIQ transport services; communication
                                 between the gateway and the data server) </p>
                         </entry>
@@ -289,7 +289,7 @@
                 </tbody>
             </tgroup>
         </table>
-        <table frame="all" rowsep="1" colsep="1" id="table_5">
+        <table frame="all" rowsep="1" colsep="1" id="table_5" audience="expert">
             <title/>
             <tgroup cols="3">
                 <colspec colname="c1" colnum="1" colwidth="1*"/>

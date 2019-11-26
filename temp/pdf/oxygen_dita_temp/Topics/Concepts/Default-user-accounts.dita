@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Concepts?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Concepts/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="default_user_accounts" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="concept:1;3:37">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="title:1;4:12">Default user accounts</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="shortdesc:1;5:17"/>
+
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="conbody:1;7:14">
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="p:1;8:12">IBM StoredIQ comes with a set of default user accounts.</p>
+
+        <hazardstatement class="+ topic/note hazard-d/hazardstatement " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="hazardstatement:1;10:26">
+            <messagepanel class="+ topic/ul hazard-d/messagepanel " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="messagepanel:1;11:27">
+                <typeofhazard class="+ topic/li hazard-d/typeofhazard " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="typeofhazard:1;12:32"/>
+                <howtoavoid class="+ topic/li hazard-d/howtoavoid " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="howtoavoid:1;13:29">For security reasons, change the passwords for these default accounts
+                    after the installation is complete so that they are unique and different from
+                    the default values. The new password must be 8 to 64 characters long and must
+                    contain characters from at least three of these categories:
+                    <sl class="- topic/sl " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="sl:1;17:25">
+                        <sli class="- topic/sli " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="sli:1;18:30">Uppercase letters: A - Z</sli>
+                        <sli class="- topic/sli " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="sli:2;19:30">Lowercase letters: a - z</sli>
+                        <sli class="- topic/sli " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="sli:3;20:30">Digits: 0 - 9</sli>
+                        <sli class="- topic/sli " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Default-user-accounts.dita" xtrc="sli:4;21:30">Punctuation marks or special characters: . : = * ˆ / $ # _ + @ &amp; % -</sli>
+                    </sl>
+                </howtoavoid>
+            </messagepanel>
+        </hazardstatement>
+
+<table class="- topic/table " frame="all" rowsep="1" colsep="1" xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="table:5;292:63">
+            <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="title:6;293:21"/>
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tgroup:5;294:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:12;295:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:13;296:65"/>
+                <colspec colname="col3" colnum="3" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:14;297:70"/>
+                <thead class="- topic/thead " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="thead:5;298:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:30;299:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:72;300:32" colname="col1" dita-ot:x="1" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:52;301:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:11;301:35">Account </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:73;303:32" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:53;304:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:12;304:35">Default password </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:74;306:32" colname="col3" dita-ot:x="3" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:54;307:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:13;307:35">Description </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tbody:5;311:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:31;312:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:75;313:32" colname="col1" dita-ot:x="1" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:55;314:32">admin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:76;316:32" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:56;317:32">admin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:77;319:32" colname="col3" dita-ot:x="3" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:57;320:32">Administrative account for accessing IBM StoredIQ Data Server. Use
+                                this account for the initial setup of the data server and to create
+                                further administrative accounts for routine administration. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:58;323:32">Change the password in IBM StoredIQ Data Server under
+                                    <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:14;324:40">Administration </b>&gt; <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:15;324:64">Configuration </b>&gt; <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:16;324:87">Manage
+                                    users</b>. </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:32;328:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:78;329:32" colname="col1" dita-ot:x="1" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:59;330:32">audituser </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:79;332:32" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:60;333:32">Passw0rd! </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:80;335:32" colname="col3" dita-ot:x="3" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:61;336:32">Account for accessing the audit database on the AppStack. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:62;337:32">Change the password by running the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:17;337:70">change_audituser_password
+                                </b>script as siqadmin user on the AppStack. </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:33;341:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:81;342:32" colname="col1" dita-ot:x="1" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:63;343:32">builder </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:82;345:32" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:64;346:32">None. Password is set during initial configuration. </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:83;348:32" colname="col3" dita-ot:x="3" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:65;349:32">Account for setting up and configuring the Elasticsearch cluster. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:66;350:32">You can change the password by using the Linux <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:18;350:82">passwd </b>command.
+                            </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:34;354:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:84;355:32" colname="col1" dita-ot:x="1" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:67;356:32">reportuser </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:85;358:32" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:68;359:32">St0red1q </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:86;361:32" colname="col3" dita-ot:x="3" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:69;362:32">Account for accessing the report database on the AppStack. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:70;363:32">Change the password by running the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:19;363:70">change_reportuser_password
+                                </b>script as siqadmin user on the AppStack. </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:35;367:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:87;368:32" colname="col1" dita-ot:x="1" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:71;369:32">siqadmin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:88;371:32" colname="col2" dita-ot:x="2" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:72;372:32">Passw0rd! </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:89;374:32" colname="col3" dita-ot:x="3" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:73;375:32">Administrative account for managing the AppStack server. For more
+                                information, see the administration guide. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:74;377:32">With new installations, you are prompted for a new password during
+                                the initial configuration of the AppStack. In updated deployments,
+                                change the password by using the Linux <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:20;379:75">passwd </b>command. </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:36;382:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:90;383:32" colname="col1" dita-ot:x="1" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:75;384:32">superadmin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:91;386:32" colname="col2" dita-ot:x="2" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:76;387:32">admin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:92;389:32" colname="col3" dita-ot:x="3" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:77;390:32">Administrative account for accessing IBM StoredIQ Administrator and
+                                IBM StoredIQ Data Server. Use this account for the initial setup of
+                                IBM StoredIQ and to create further administrative accounts for
+                                routine administration so that their actions can be audited. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:78;394:32">Change the password in IBM StoredIQ Administrator: go to <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:21;394:92">Users
+                                </b>and edit the superadmin account. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:79;396:32">The superadmin account has access to all IBM StoredIQ applications on
+                                the application stack. To switch applications, click the triangle
+                                arrow icon and select the application that you want to access from
+                                the list of the available applications. </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+    
+</concept>

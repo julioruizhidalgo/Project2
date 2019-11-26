@@ -5,13 +5,13 @@
     <topicref href="SecondMap.ditamap" format="ditamap"/>
     <topicref href="Topics/Concepts/Cover-page.dita"/>
 
-    <topicgroup>
-        <topicref href="Topics/Concepts/About-this-Publicaton.dita">
+  
+        <topicref href="Topics/Concepts/About-this-Publicaton.dita" collection-type="sequence">
             <topicref href="Topics/Concepts/Product-Library.dita"/>
             <topicref href="Topics/Tasks/Contacting-Customer-Support.dita"/>
         </topicref>
-    </topicgroup>
-    <topicgroup>
+    
+    <topicgroup >
         <topicref href="Topics/Concepts/IBM-StoredIQ-Components.dita">
             <topicref href="Topics/References/Solution-components.dita"> </topicref>
 
@@ -29,7 +29,7 @@
         </topicref>
 
     </topicgroup>
-    <topicgroup>
+    <topicgroup >
         <topicref href="Topics/Tasks/Planning-for-deployment.dita">
             <topicref
                 href="Topics/Concepts/Open-Virtual-Appliance-OVA-configuration-requirements.dita"/>
@@ -39,7 +39,7 @@
                 />
             </topicref>
             <topicref href="Topics/Tasks/Environment-sizing-guidelines.dita"> </topicref>
-            <topicref href="Topics/Tasks/Stack-provisioning-prerequisites.dita"/>
+            <topicref href="Topics/Tasks/Stack-provisioning-prerequisites.dita" product="product2"/>
             <topicref href="Topics/Concepts/License-usage-metrics.dita"> </topicref>
             <topicref href="Topics/Concepts/Security.dita">
                 <topicref href="Topics/Concepts/Default-user-accounts.dita"/>
@@ -48,10 +48,36 @@
 
     </topicgroup>
     <topicgroup>
-        <topicref href="Topics/Tasks/Deploying-IBM-StoredIQ.dita">
+        <topicref href="Topics/Tasks/Deploying-IBM-StoredIQ.dita" product="product1">
             <topicref href="Topics/Tasks/Deploying-the-virtual-appliances.dita"/>
             <topicref href="Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita"
             > </topicref>
         </topicref>
     </topicgroup>
+    <topichead navtitle="Glossary">
+        <topichead navtitle="A"> 
+            <topicref href="Topics/Glossary/Glossary.dita#aa">
+                
+            </topicref>
+            <topicref href="Topics/Glossary/Glossary.dita#ab"></topicref>
+        </topichead> 
+        <topichead navtitle="C"> 
+            <topicref href="Topics/Glossary/Glossary.dita#ac"></topicref>
+            <topicref href="Topics/Glossary/Glossary.dita#ad"></topicref>
+        </topichead> 
+        <topichead navtitle="D"> 
+            <topicref href="Topics/Glossary/Glossary.dita#ae"></topicref>
+            <topicref href="Topics/Glossary/Glossary.dita#af"></topicref>
+            <topicref href="Topics/Glossary/Glossary.dita#ag"></topicref>
+            
+        </topichead> 
+        <topichead navtitle="G"> 
+            <topicref href="Topics/Glossary/Glossary.dita#ah"></topicref>
+            
+        </topichead> 
+        <topichead navtitle="I"> 
+            <topicref href="Topics/Glossary/Glossary.dita#ai"></topicref>
+            
+        </topichead> 
+    </topichead>
 </map>

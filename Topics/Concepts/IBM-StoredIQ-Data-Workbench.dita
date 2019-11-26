@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="ibm-storediq_data_workbench">
+<concept id="ibm-storediq_data_workbench" product="product2">
     <title>IBM StoredIQ Data Workbench</title>
-    <shortdesc>Big data is a pervasive problem, not a one-time occurrence. It is easy for most
+    
+    <abstract>Big data is a pervasive problem, not a one-time occurrence. It is easy for most
         companies to realize that big data is problematic, but it is hard to identify what problems
         they have. Big data is all about the unknown, but the unknown cannot be off limits. IBM
         StoredIQ Data Workbench can help you learn about your data, make educated decisions with
         your most valuable asset, and turn your company's most dangerous risk into its most valuable
-        asset.</shortdesc>
+        asset.</abstract>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>
+                    Workbench
+                </keyword>
+                <indexterm>Workbench
+                <index-see>
+                    Eileen Sideways
+                </index-see></indexterm>
+                <indexterm>StoredIQ
+                    <index-see>
+                        StoredIQ Data Workbench
+                    </index-see>
+                </indexterm>
+                
+                
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>
             <image conkeyref="images/image_4"/>

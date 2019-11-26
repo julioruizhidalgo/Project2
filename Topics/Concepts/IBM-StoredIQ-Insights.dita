@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="ibm_storediq_insights">
+<concept id="ibm_storediq_insights" status="changed">
     <title>IBM StoredIQ Insights</title>
-    <shortdesc>IBM StoredIQ Insights provides dynamic and interactive filtering for your data with
+    
+    <abstract>IBM StoredIQ Insights provides dynamic and interactive filtering for your data with
         easy access to all metadata and instant plain-text preview of document content for full-text
-        indexed volumes. </shortdesc>
+        indexed volumes. </abstract>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>IBM StoredIQ Insights</keyword>
+                <indexterm>IBM StoredIQ Insights</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p> Faceted search lets you drill down to refine your search results as needed. In addition,
             you can apply any valid IBM StoredIQ filter query. Tags let you categorize the data for

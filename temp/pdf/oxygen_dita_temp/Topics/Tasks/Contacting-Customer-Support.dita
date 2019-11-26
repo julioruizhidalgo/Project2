@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Tasks?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Tasks/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="Contacting-Customer-Support" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="task:1;3:40">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="title:1;4:12">Contacting IBM StoredIQ customer support</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="shortdesc:1;5:16"/>
+<prolog class="- topic/prolog " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="prolog:1;6:9">
+    <metadata class="- topic/metadata " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="metadata:1;7:15">
+        <keywords class="- topic/keywords " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="keywords:1;8:19">
+            <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="indexterm:1;9:24">Contact
+                <index-see class="+ topic/index-base indexing-d/index-see " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="index-see:1;10:28">site</index-see>
+            </indexterm>
+        </keywords>
+    </metadata>
+</prolog>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="taskbody:1;15:15">
+
+        <context class="- topic/section task/context " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="context:1;17:18">
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="p:1;18:16">For IBM StoredIQ technical support or to learn about available service options,
+                <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="indexterm:2;19:28">contact</indexterm> IBM StoredIQ customer support at this phone number:</p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="p:2;20:16">
+                <ul class="- topic/ul " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="ul:1;21:21">
+                    <li id="supportphone" class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="li:1;22:43">1-866-227-2068</li>
+                </ul>
+            </p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="p:3;25:16"> Or, see the Contact IBM web <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="indexterm:3;25:56">site</indexterm> at http://www.ibm.com/contact/us/ </p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="p:4;26:16"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="b:1;26:19">IBM Knowledge Center</b></p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="p:5;27:16">The IBM StoredIQ documentation is available in <xref href="https://www.ibm.com/support/knowledgecenter/" format="html" scope="external" class="- topic/xref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="xref:1;29:38"><?ditaot usertext?>IBM Knowledge Center</xref>.</p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="steps:1;31:16">
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="step:1;32:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="cmd:1;33:23"/>
+            </step>
+        </steps>
+    </taskbody>
+    <task id="contacting_ibm" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="task:2;37:31">
+        <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="title:2;38:16"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="b:2;38:19">Contacting IBM</b></title>
+        <abstract class="- topic/abstract " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="abstract:1;39:19">
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="p:6;40:16">For general inquiries, call 800-IBM-4YOU (800-426-4968). To contact IBM customer
+                service in the United States or Canada, call 1-800-IBM-SERV (1-800-426-7378). </p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Contacting-Customer-Support.dita" xtrc="p:7;42:16">For more information about how to contact IBM, including TTY service, see the Contact
+                IBM website at http://www.ibm.com/contact/us/.</p>
+        </abstract>
+    </task>
+</task>

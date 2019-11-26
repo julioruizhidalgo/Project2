@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/References?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/References/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Reference//EN?><?doctype-system reference.dtd?><reference xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="solution-components" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="reference:1;3:37">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:1;4:12">Solution components</title>
+    <abstract class="- topic/abstract " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="abstract:1;5:15">IBM StoredIQ provides three solution components: the gateway, data servers, and
+        application stack (AppStack).</abstract>
+    <prolog class="- topic/prolog " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="prolog:1;7:13">
+        <metadata class="- topic/metadata " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="metadata:1;8:19">
+            <keywords class="- topic/keywords " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="keywords:1;9:23">
+                <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="indexterm:1;10:28">Gateway</indexterm>
+                <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="indexterm:2;11:28">Data servers</indexterm>
+                <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="indexterm:3;12:28">Application stack</indexterm>
+                <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="indexterm:4;13:28">Elasticsearch cluster</indexterm>
+                
+            </keywords>
+        </metadata>
+    </prolog>
+    
+    <reference id="gateway" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="reference:2;19:29">
+        <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:2;20:16">Gateway</title>
+        <refbody class="- topic/body        reference/refbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="refbody:1;21:18">
+            <section class="- topic/section " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="section:1;22:22">
+                <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:3;23:25"/>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:1;24:20"> The gateway communicates between the data servers and the application stack. The
+                    application stack polls the gateway for information about the data on the data
+                    servers. The data servers push the information to the gateway. </p>
+            </section>
+        </refbody>
+
+    </reference>
+    <reference id="data_servers" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="reference:3;31:34">
+        <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:4;32:16">Data servers</title>
+
+        <refbody class="- topic/body        reference/refbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="refbody:2;34:18">
+            <section class="- topic/section " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="section:2;35:22">
+                <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:5;36:25"/>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:2;37:20">A data server obtains the data from supported data sources and indexes it. By
+                    indexing this data, you gain information about unstructured data such as file
+                    size, file data types, file owners.</p>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:3;40:20"> The data server pushes the information about volumes and indexes to the gateway
+                    so it can be communicated to the application stack. Multiple data servers feed
+                    into a single gateway. </p>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:4;43:20"> Data servers can be categorized in two types: DataServer - Classic and
+                    DataServer - Distributed. A data server of the type DataServer - Classic uses
+                    the embedded PostgreSQL database for storing the index. With a data server of
+                    the type DataServer - Distributed, the index is stored in an Elasticsearch
+                    cluster. Data servers of this type also provide better performance in search
+                    queries. They can manage much larger amounts of data than data servers of the
+                    type DataServer - Classic, thus making the IBM StoredIQ deployments more
+                    scalable. </p>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:5;51:20"> You can have both types of data servers in your IBM StoredIQ deployment. </p>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:6;52:20"> In addition to completing standard administrative tasks, administrators can
+                    deploy the IBM StoredIQ Desktop Data Collector and index desktops from the data
+                    server. </p>
+            </section>
+        </refbody>
+
+
+    </reference>
+    <reference id="application_stack" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="reference:4;60:39">
+        <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:6;61:16">Application stack</title>
+        <refbody class="- topic/body        reference/refbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="refbody:3;62:18">
+            <section class="- topic/section " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="section:3;63:22">
+                <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:7;64:25"/>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:7;65:20"> The application stack provides the user interface for the IBM StoredIQ
+                    Administrator, IBM StoredIQ Data Workbench, IBM StoredIQ Insights, and the IBM
+                    StoredIQ Policy Manager products. </p>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:8;68:20"> The synchronization feature for integration with a governance catalog is also
+                    part of the application stack. </p>
+            </section>
+        </refbody>
+    </reference>
+    <reference id="elasticsearch_cluster" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="reference:5;73:43">
+        <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:8;74:16">Elasticsearch cluster</title>
+        <refbody class="- topic/body        reference/refbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="refbody:4;75:18">
+            <section class="- topic/section " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="section:4;76:22">
+                <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="title:9;77:25"/>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/References/Solution-components.dita" xtrc="p:9;78:20"> The Elasticsearch cluster attached to a data server of the type DataServer -
+                    Distributed provides a single data store for all metadata and content of
+                    harvested objects. Indexed data is distributed automatically across the nodes in
+                    the cluster. Indexing and queries are load-balanced across all nodes. Nodes can
+                    be added dynamically without downtime and the indexing process can use these
+                    newly added nodes without further setup. </p>
+            </section>
+        </refbody>
+    </reference>
+</reference>

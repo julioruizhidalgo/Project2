@@ -2,11 +2,40 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="cover-page">
     <title>IBM StoredIQ</title>
-    <shortdesc>Deployment and Configuration Guide</shortdesc>
+    <abstract>Deployment and Configuration Guide</abstract>
+
+
     <conbody>
+        <p> In this project, I have copied the first 21 pages of IBM StoredIQ Deployment and
+            Configuration Guide for XML learning purposes for the module XML in Technical
+            Communication at the CIT. </p>
+        <p>
+            <b>Notes that ust be taken into account for the project: </b></p>
+
+        <ul>
+            <li>I used the most appropiate Dita elements for the content given. However, instead of
+                using the element Shortdesc, I preferred to use Abstract to avoid the text from
+                appearing in the front page of the WebHelp Responsive transformation.</li>
+            <li>The metadata and the and the conditional processing files were made for training
+                purposes and not for real consumption of the document.</li>
+            <li>I used basic metadata in images, tables and topics</li>
+            <li>I used Conkeyref to reuse content such as images, and tables.</li>
+            <li>I created a Glossary and an Index.</li>
+            <li>I created 5 basic filters using condicional processing profiles.</li>
+            <li>I groupd the topics hierarchically, using the default relational links given by
+                Oxygen, as they seemed to make more sense.</li>
+        </ul>
+
         <p>
             <image conkeyref="images/image_logo"/>
         </p>
-        
+        <p><fn>
+                <p>This edition applies to Version 7.6.0.19 of product number 5724M86 and to all
+                    subsequent releases and modifications until otherwise indicated in new
+                    editions.</p>
+                <p><b>© Copyright International Business Machines Corporation 2001, 2019</b>. US
+                    Government Users Restricted Rights – Use, duplication or disclosure restricted
+                    by GSA ADP Schedule Contract with IBM Corp.</p>
+            </fn></p>
     </conbody>
 </concept>

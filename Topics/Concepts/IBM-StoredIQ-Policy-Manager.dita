@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="ibm_storediq_policy_manager">
+<concept id="ibm_storediq_policy_manager" product="product2">
     <title>IBM StoredIQ Policy Manager</title>
-    <shortdesc>IBM StoredIQ Policy Manager allows users to run mature policies and processes at
-        scale across a wider range of data.</shortdesc>
+    <abstract>IBM StoredIQ Policy Manager allows users to run mature policies and processes at
+        scale across a wider range of data.</abstract>
     <conbody>
         <p>
             <image conkeyref="images/image_6"/>

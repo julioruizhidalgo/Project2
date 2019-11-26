@@ -7,7 +7,7 @@
         <p>The following documents are available in the IBM® StoredIQ® product library.</p>
         <ul>
             <li id="overview">IBM StoredIQ Overview Guide</li>
-            <li id="deployment_and_cofiguration">IBM StoredIQ Deployment and Configuration Guide</li>
+            <li id="deployment_and_cofiguration" audience="expert" product="product1">IBM StoredIQ Deployment and Configuration Guide</li>
             <li id="data_server_administration">IBM StoredIQ Data Server Administration Guide</li>
             <li id="administrator_administration">IBM StoredIQ Administrator Administration Guide</li>
             <li id="data_workbench_user">IBM StoredIQ Data Workbench User Guide</li>

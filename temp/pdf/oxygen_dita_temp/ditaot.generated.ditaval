@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><val xmlns:dita-ot="http://dita-ot.sourceforge.net">
+    <prop action="flag" att="platform" backcolor="red" color="blue" val="windows"></prop>
+    <prop action="flag" att="product" backcolor="blue" color="yellow" val="product1"></prop>
+    <prop action="exclude" att="platform" val="windows"></prop>
+    <prop action="include"></prop>
+    
+</val>

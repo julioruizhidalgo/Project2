@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Concepts?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Concepts/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="tables_collection" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="concept:1;3:33">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="title:1;4:12">Tables</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="shortdesc:1;5:16"/>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="conbody:1;6:14">
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:1;7:12"/>
+        
+        <table frame="all" rowsep="1" colsep="1" id="table_1" class="- topic/table " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="table:1;9:63">
+            <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="title:2;10:20"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:1;10:23">Default open ports on the AppStack </b></title>
+            <tgroup cols="2" class="- topic/tgroup " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tgroup:1;11:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:1;12:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:2;13:65"/>
+                <thead class="- topic/thead " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="thead:1;14:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:1;15:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:1;16:32" colname="col1" dita-ot:x="1" dita-ot:y="1">Port Number</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:2;17:32" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:2;18:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:2;18:35">Protocol </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tbody:1;22:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:2;23:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:3;24:32" colname="col1" dita-ot:x="1" dita-ot:y="2">22</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:4;25:32" colname="col2" dita-ot:x="2" dita-ot:y="2">tcp</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:3;27:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:5;28:32" colname="col1" dita-ot:x="1" dita-ot:y="3">80</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:6;29:32" colname="col2" dita-ot:x="2" dita-ot:y="3">tcp</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:4;31:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:7;32:32" colname="col1" dita-ot:x="1" dita-ot:y="4">443</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:8;33:32" colname="col2" dita-ot:x="2" dita-ot:y="4">tcp</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_2" class="- topic/table " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="table:2;38:63">
+            <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="title:3;39:20">Default open ports on the IBM StoredIQ data server</title>
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tgroup:2;40:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:3;41:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:4;42:65"/>
+                <colspec colname="col3" colnum="3" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:5;43:65"/>
+                <thead class="- topic/thead " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="thead:2;44:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:5;45:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:9;46:32" colname="col1" dita-ot:x="1" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:3;47:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:3;47:35">Port number </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:10;49:32" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:4;50:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:4;50:35">Protocol </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:11;52:32" colname="col3" dita-ot:x="3" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:5;53:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:5;53:35">Service </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tbody:2;57:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:6;58:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:12;59:32" colname="col1" dita-ot:x="1" dita-ot:y="2">22</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:13;60:32" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:6;61:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:14;63:32" colname="col3" dita-ot:x="3" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:7;64:32">PROD-ssh </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:7;67:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:15;68:32" colname="col1" dita-ot:x="1" dita-ot:y="3">80</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:16;69:32" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:8;70:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:17;72:32" colname="col3" dita-ot:x="3" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:9;73:32">PROD-web </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:8;76:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:18;77:32" colname="col1" dita-ot:x="1" dita-ot:y="4">443</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:19;78:32" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:10;79:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:20;81:32" colname="col3" dita-ot:x="3" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:11;82:32">PROD-https (UI and Web Services APIs) </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:9;85:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:21;86:32" colname="col1" dita-ot:x="1" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:12;87:32">11103</p>
+                        </entry>
+                        <entry morerows="1" class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:22;89:45" colname="col2" dita-ot:x="2" dita-ot:y="5">tcp</entry>
+                        <entry morerows="1" class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:23;90:45" colname="col3" dita-ot:x="3" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:13;91:32">PROD-transport (IBM StoredIQ transport services; communication
+                                between the gateway and the data server) </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:10;95:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:24;96:32" colname="col1" dita-ot:x="1" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:14;97:32">11104 </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_3" class="- topic/table " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="table:3;103:63">
+            <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="title:4;104:20">Default open ports on the nodes in the Elasticsearch cluster</title>
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tgroup:3;105:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:6;106:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:7;107:65"/>
+                <colspec colname="col3" colnum="3" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:8;108:65"/>
+                <thead class="- topic/thead " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="thead:3;109:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:11;110:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:25;111:32" colname="col1" dita-ot:x="1" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:15;112:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:6;112:35">Port number </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:26;114:32" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:16;115:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:7;115:35">Protocol </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:27;117:32" colname="col3" dita-ot:x="3" dita-ot:y="1">Service</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tbody:3;120:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:12;121:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:28;122:32" colname="col1" dita-ot:x="1" dita-ot:y="2">21</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:29;123:32" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:17;124:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:30;126:32" colname="col3" dita-ot:x="3" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:18;127:32">ftp </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:13;130:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:31;131:32" colname="col1" dita-ot:x="1" dita-ot:y="3">22</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:32;132:32" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:19;133:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:33;135:32" colname="col3" dita-ot:x="3" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:20;136:32">sshd </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:14;139:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:34;140:32" colname="col1" dita-ot:x="1" dita-ot:y="4">80</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:35;141:32" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:21;142:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:36;144:33" colname="col3" dita-ot:x="3" dita-ot:y="4"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:15;146:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:37;147:32" colname="col1" dita-ot:x="1" dita-ot:y="5">443</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:38;148:32" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:22;149:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:39;151:33" colname="col3" dita-ot:x="3" dita-ot:y="5"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:16;153:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:40;154:32" colname="col1" dita-ot:x="1" dita-ot:y="6">8888</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:41;155:32" colname="col2" dita-ot:x="2" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:23;156:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:42;158:32" colname="col3" dita-ot:x="3" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:24;159:32">SimpleHTTPServer (used for copying the siq- elasticsearch.yml
+                                configuration file from the Elasticsearch node to the data server)
+                            </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:17;164:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:43;165:32" colname="col1" dita-ot:x="1" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:25;166:32">9200 </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:44;168:32" colname="col2" dita-ot:x="2" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:26;169:32">tcp 6</p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:45;171:32" colname="col3" dita-ot:x="3" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:27;172:32">docker-proxy (listening for REST requests) </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:28;173:32">You can restrict access to this port by either enabling Search Guard
+                                or by setting up a firewall. For more information, see “Securing
+                                Elasticsearch cluster communication with Search Guard” on page 51 or
+                                “Restricting access to port 9200 on Elasticsearch nodes” on page 52.
+                            </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:18;180:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:46;181:32" colname="col1" dita-ot:x="1" dita-ot:y="8">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:29;182:32">9300 </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:47;184:32" colname="col2" dita-ot:x="2" dita-ot:y="8">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:30;185:32">tcp 6</p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:48;187:32" colname="col3" dita-ot:x="3" dita-ot:y="8">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:31;188:32">docker-proxy (internode communication) </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_4" class="- topic/table " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="table:4;194:63">
+            <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="title:5;195:20">Default open ports on the IBM StoredIQ gateway</title>
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tgroup:4;196:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:9;197:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:10;198:65"/>
+                <colspec colname="col3" colnum="3" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:11;199:65"/>
+                <thead class="- topic/thead " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="thead:4;200:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:19;201:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:49;202:32" colname="col1" dita-ot:x="1" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:32;203:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:8;203:35">Port number </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:50;205:32" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:33;206:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:9;206:35">Protocol </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:51;208:32" colname="col3" dita-ot:x="3" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:34;209:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:10;209:35">Service </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tbody:4;213:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:20;214:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:52;215:32" colname="col1" dita-ot:x="1" dita-ot:y="2">22</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:53;216:32" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:35;217:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:54;219:32" colname="col3" dita-ot:x="3" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:36;220:32">PROD-ssh </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:21;223:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:55;224:32" colname="col1" dita-ot:x="1" dita-ot:y="3">80</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:56;225:32" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:37;226:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:57;228:32" colname="col3" dita-ot:x="3" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:38;229:32">PROD-web </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:22;232:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:58;233:32" colname="col1" dita-ot:x="1" dita-ot:y="4">443</entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:59;234:32" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:39;235:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:60;237:32" colname="col3" dita-ot:x="3" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:40;238:32">PROD-https (UI and Web Services APIs) </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:23;241:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:61;242:32" colname="col1" dita-ot:x="1" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:41;243:32">5432 </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:62;245:32" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:42;246:32">tcp </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:63;248:32" colname="col3" dita-ot:x="3" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:43;249:32">PROD-postgres </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:24;252:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:64;253:32" colname="col1" dita-ot:x="1" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:44;254:32">5434 </p>
+                        </entry>
+                        <entry morerows="5" class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:65;256:45" colname="col2" dita-ot:x="2" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:45;257:32">tcp </p>
+                        </entry>
+                        <entry morerows="5" class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:66;259:45" colname="col3" dita-ot:x="3" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:46;260:32">PROD-transport (IBM StoredIQ transport services; communication
+                                between the gateway and the data server) </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:25;264:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:67;265:32" colname="col1" dita-ot:x="1" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:47;266:32">8765 </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:26;269:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:68;270:32" colname="col1" dita-ot:x="1" dita-ot:y="8">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:48;271:32">7766 </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:27;274:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:69;275:32" colname="col1" dita-ot:x="1" dita-ot:y="9">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:49;276:32">11102 </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:28;279:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:70;280:32" colname="col1" dita-ot:x="1" dita-ot:y="10">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:50;281:32">11103 </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:29;284:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:71;285:32" colname="col1" dita-ot:x="1" dita-ot:y="11">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:51;286:32">11104 </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_5" class="- topic/table " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="table:5;292:63">
+            <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="title:6;293:21"/>
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tgroup:5;294:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:12;295:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:13;296:65"/>
+                <colspec colname="col3" colnum="3" colwidth="1*" class="- topic/colspec " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="colspec:14;297:70"/>
+                <thead class="- topic/thead " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="thead:5;298:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:30;299:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:72;300:32" colname="col1" dita-ot:x="1" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:52;301:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:11;301:35">Account </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:73;303:32" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:53;304:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:12;304:35">Default password </b></p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:74;306:32" colname="col3" dita-ot:x="3" dita-ot:y="1">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:54;307:32"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:13;307:35">Description </b></p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="tbody:5;311:24">
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:31;312:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:75;313:32" colname="col1" dita-ot:x="1" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:55;314:32">admin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:76;316:32" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:56;317:32">admin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:77;319:32" colname="col3" dita-ot:x="3" dita-ot:y="2">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:57;320:32">Administrative account for accessing IBM StoredIQ Data Server. Use
+                                this account for the initial setup of the data server and to create
+                                further administrative accounts for routine administration. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:58;323:32">Change the password in IBM StoredIQ Data Server under
+                                    <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:14;324:40">Administration </b>&gt; <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:15;324:64">Configuration </b>&gt; <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:16;324:87">Manage
+                                    users</b>. </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:32;328:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:78;329:32" colname="col1" dita-ot:x="1" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:59;330:32">audituser </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:79;332:32" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:60;333:32">Passw0rd! </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:80;335:32" colname="col3" dita-ot:x="3" dita-ot:y="3">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:61;336:32">Account for accessing the audit database on the AppStack. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:62;337:32">Change the password by running the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:17;337:70">change_audituser_password
+                                </b>script as siqadmin user on the AppStack. </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:33;341:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:81;342:32" colname="col1" dita-ot:x="1" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:63;343:32">builder </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:82;345:32" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:64;346:32">None. Password is set during initial configuration. </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:83;348:32" colname="col3" dita-ot:x="3" dita-ot:y="4">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:65;349:32">Account for setting up and configuring the Elasticsearch cluster. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:66;350:32">You can change the password by using the Linux <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:18;350:82">passwd </b>command.
+                            </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:34;354:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:84;355:32" colname="col1" dita-ot:x="1" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:67;356:32">reportuser </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:85;358:32" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:68;359:32">St0red1q </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:86;361:32" colname="col3" dita-ot:x="3" dita-ot:y="5">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:69;362:32">Account for accessing the report database on the AppStack. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:70;363:32">Change the password by running the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:19;363:70">change_reportuser_password
+                                </b>script as siqadmin user on the AppStack. </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:35;367:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:87;368:32" colname="col1" dita-ot:x="1" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:71;369:32">siqadmin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:88;371:32" colname="col2" dita-ot:x="2" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:72;372:32">Passw0rd! </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:89;374:32" colname="col3" dita-ot:x="3" dita-ot:y="6">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:73;375:32">Administrative account for managing the AppStack server. For more
+                                information, see the administration guide. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:74;377:32">With new installations, you are prompted for a new password during
+                                the initial configuration of the AppStack. In updated deployments,
+                                change the password by using the Linux <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:20;379:75">passwd </b>command. </p>
+                        </entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="row:36;382:26">
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:90;383:32" colname="col1" dita-ot:x="1" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:75;384:32">superadmin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:91;386:32" colname="col2" dita-ot:x="2" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:76;387:32">admin </p>
+                        </entry>
+                        <entry class="- topic/entry " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="entry:92;389:32" colname="col3" dita-ot:x="3" dita-ot:y="7">
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:77;390:32">Administrative account for accessing IBM StoredIQ Administrator and
+                                IBM StoredIQ Data Server. Use this account for the initial setup of
+                                IBM StoredIQ and to create further administrative accounts for
+                                routine administration so that their actions can be audited. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:78;394:32">Change the password in IBM StoredIQ Administrator: go to <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="b:21;394:92">Users
+                                </b>and edit the superadmin account. </p>
+                            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Tables.dita" xtrc="p:79;396:32">The superadmin account has access to all IBM StoredIQ applications on
+                                the application stack. To switch applications, click the triangle
+                                arrow icon and select the application that you want to access from
+                                the list of the available applications. </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

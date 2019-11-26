@@ -4,6 +4,17 @@
     <title>Solution components</title>
     <abstract>IBM StoredIQ provides three solution components: the gateway, data servers, and
         application stack (AppStack).</abstract>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>Gateway</indexterm>
+                <indexterm>Data servers</indexterm>
+                <indexterm>Application stack</indexterm>
+                <indexterm>Elasticsearch cluster</indexterm>
+                
+            </keywords>
+        </metadata>
+    </prolog>
     
     <reference id="gateway">
         <title>Gateway</title>

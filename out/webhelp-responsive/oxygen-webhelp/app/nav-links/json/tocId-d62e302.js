@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Cartridges","href":"Topics\/Glossary\/Glossary_3.html#ac","attributes": {"data-id":"ac",},"menu": {"hasChildren":false,},"tocID":"ac-d62e303","topics":[]},{"title":"Connector API SDK","href":"Topics\/Glossary\/Glossary_4.html#ad","attributes": {"data-id":"ad",},"menu": {"hasChildren":false,},"tocID":"ad-d62e311","topics":[]}]});

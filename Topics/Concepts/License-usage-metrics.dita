@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="license_usage_metrics">
+<concept id="license_usage_metrics" platform="windows" product="product2">
     <title>License usage metrics</title>
     <shortdesc/>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>IBM License Metric Tool</keyword>
+                <indexterm>IBM License Metric Tool
+                    <indexterm>Integration with IBM License Metric Tool </indexterm>
+                </indexterm>
+                
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>Using the IBM License Metric Tool, you can generate license consumption reports that
             count IBM StoredIQ license usage.</p>

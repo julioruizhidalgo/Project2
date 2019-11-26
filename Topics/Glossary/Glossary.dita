@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="Glossary">
+    <title>Glossary</title>
+    <glossentry id="aa">
+        <glossterm>Application stack</glossterm>
+        <glossdef>An application stack is a suite or set of application programs that help in
+            performing a certain task. These applications are closely linked together and data can
+            be exported or imported among them with minimum steps.</glossdef>
+    </glossentry>
+    <glossentry id="ab">
+        <glossterm>Auto-classification</glossterm>
+        <glossdef>Automated document categorization, what IBM StoredIQ refers to as auto-
+            classification models, integrates the IBM® Content Classification's classification model
+            into the IBM StoredIQ infoset-generation process. Data Experts can use IBM Content
+            Classification to train a classification model, which is then registered with IBM
+            StoredIQ Administrator. The registered classification model can be applied to an
+            existing infoset in IBM StoredIQ Data Workbench to generate new metadata for the objects
+            in the infoset. Metadata can be used in rule-based filters to create new infosets.
+        </glossdef>
+    </glossentry>
+    <glossentry id="ac">
+        <glossterm>Cartridges</glossterm>
+        <glossdef>Cartridges are compressed files that contain analysis logic. When you add a
+            cartridge to IBM StoredIQ AppStack, it can detect new data in documents during indexing
+            and make these new insights searchable. For example, a sensitive pattern cartridge can
+            enable IBM StoredIQ to detect passport numbers, phone numbers, and other IDs.</glossdef>
+    </glossentry>
+    <glossentry id="ad">
+        <glossterm>Connector API SDK</glossterm>
+        <glossdef> A connector is a software component of IBM StoredIQ that is used to connect to a
+            data source such as a network file system and access its data. Using IBM StoredIQ
+            Connector API SDK, developers of other companies can develop connectors to new data
+            sources outside the IBM StoredIQ development environment. These connectors can be
+            integrated with a live IBM StoredIQ application to index, search, manage, and analyze
+            data on the data source.</glossdef>
+    </glossentry>
+    <glossentry id="ae">
+        <glossterm>Database server</glossterm>
+        <glossdef>A database server is a server which uses a database application that provides
+            database services to other computer programs or to computers, as defined by the
+            client–server model.</glossdef>
+
+    </glossentry>
+    <glossentry id="af">
+        <glossterm>DataServer - Distributed</glossterm>
+        <glossdef>The Distributed Data Server (DDS) provides the ability to serve multiple clients
+            in a single-server address space. This capability is used, for example, by RMF™
+            PM.</glossdef>
+    </glossentry>
+    <glossentry id="ag">
+        <glossterm>DataServer - Classic</glossterm>
+        <glossdef>A Classic data server runs in its own address space. The Classic data server
+            performs all data access. </glossdef>
+    </glossentry>
+    <glossentry id="ah">
+        <glossterm>Gateway</glossterm>
+        <glossdef>A gateway is a node (router) in a computer network, a key stopping point for data
+            on its way to or from other networks. Thanks to gateways, we are able to communicate and
+            send data back and forth. The Internet wouldn't be any use to us without gateways (as
+            well as a lot of other hardware and software).</glossdef>
+    </glossentry>
+    <glossentry id="ai">
+        <glossterm>IBM StoredIQ Insights</glossterm>
+        <glossdef>IBM StoredIQ Insights provides dynamic and interactive filtering for your data
+            with easy access to all metadata and instant plain-text preview of document content for
+            full-text indexed volumes.</glossdef>
+    </glossentry>
+</glossgroup>

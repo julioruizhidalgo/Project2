@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="Openports-for-desktop-client-access-to-the-data-server">
+<task id="Openports-for-desktop-client-access-to-the-data-server" product="product1 product2">
     <title>Open ports for desktop client access to the data server</title>
-    <shortdesc/>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>ports</keyword>
+                <indexterm>Ports
+                    <indexterm>Classic
+                        <indexterm>ports for desktop client access</indexterm>
+                    </indexterm>
+                    
+                </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    
     <taskbody>
         <context>
             <p><b>To open ports for desktop client access to the data server on OVA deployed

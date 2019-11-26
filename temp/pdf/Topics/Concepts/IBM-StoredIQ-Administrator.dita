@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/Topics/Concepts?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/Topics/Concepts/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="ibm_storediq_administrator" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="concept:1;3:42">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="title:1;4:12">IBM StoredIQ Administrator</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="shortdesc:1;5:16">IBM StoredIQ Administrator helps you manage global assets common to the distributed infrastructure behind IBM StoredIQ applications.</shortdesc>
+   <prolog class="- topic/prolog " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="prolog:1;6:12">
+       <metadata class="- topic/metadata " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="metadata:1;7:18">
+           <keywords class="- topic/keywords " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="keywords:1;8:22">
+               <keyword class="- topic/keyword " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="keyword:1;9:25">
+                   Cartridges
+                  
+               </keyword>
+               <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="indexterm:1;13:27">Cartridges</indexterm>
+               <indexterm class="- topic/indexterm " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="indexterm:2;14:27">Managing Mule scripts
+                   <index-see class="+ topic/index-base indexing-d/index-see " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="index-see:1;15:31">Managing scripts</index-see>
+               </indexterm>
+           </keywords>
+       </metadata>
+   </prolog>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="conbody:1;20:14">
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="p:1;21:12">
+            <image placement="inline" class="- topic/image " scope="external" href="../../Resources/Images/3.IBM_StoredIQ_Administrator.png" format="png" xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Images-Collection.dita" xtrc="image:3;17:39">
+            <alt class="- topic/alt " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/Images-Collection.dita" xtrc="alt:3;18:18">IBM_StoredIQ Administrator</alt>
+        </image>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="p:2;24:12"> IBM StoredIQ Administrator provides at-a-glance understanding of the different issues
+            that can crop up in the IBM StoredIQ environment. These views are unique to the IBM
+            StoredIQ Administrator application as they provide an overview of how the system is
+            running. They allow access to various pieces of information that are being shared across
+            applications or allow for the management of resources in a centralized manner. </p>
+        <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="p:3;29:12"> The administrator is the person responsible for managing the IBM StoredIQ. This
+            individual has strong understanding of data sources, indexes, data servers, jobs,
+            infosets, and actions. This list provides an overview as to how IBM StoredIQ
+            Administrator works: </p>
+        <ul class="- topic/ul " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="ul:1;33:13">
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:1;34:17">
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="p:4;35:20">
+                    <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:1;36:24">Viewing data servers and volumes</b>: Using IBM StoredIQ Administrator, the
+                    Administrator can identify what data servers are deployed, their location, what
+                    data is being managed, and the status of each data server in the system. Volume
+                    management is a central component of IBM StoredIQ. IBM StoredIQ Administrator
+                    also allows the Administrator to see what volumes are currently under
+                    management, which data server is responsible for that volume, the state of the
+                    volume after indexing, and the amount and size of information that is contained
+                    by each volume. Administrators can also add volumes to and delete volumes from
+                    data servers through this interface. </p>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="p:5;45:20">If IBM StoredIQ is configured for integration with Information Governance
+                    Catalog, the Administrator can also manage which volumes are published to the
+                    governance catalog.</p>
+            </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:2;49:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:2;50:20">Scheduling harvests:</b> Harvesting, which can also be referred to as indexing,
+                is the process or task by which IBM StoredIQ examines and classifies data in your
+                network. Using IBM StoredIQ Administrator, harvests can be scheduled, edited, and
+                deleted. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:3;54:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:3;55:20">Creating system infosets:</b> System infosets that use only specific indexed
+                volumes can be created and managed within IBM StoredIQ Administrator. Although
+                infosets are a core component of IBM StoredIQ Data Workbench, system infosets are
+                created as a shortcut for users in IBM StoredIQ Administrator. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:4;59:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:4;60:20">Managing users:</b> The user management area allows administrators to create
+                users and manage users' access to the various IBM StoredIQ applications. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:5;62:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:5;63:20">Configuring and managing actions:</b> An action is any process that is taken upon
+                the data that is represented by the indexes. Actions are run by data servers on
+                indexed data objects. Any errors or warnings that are generated as a result of an
+                action are recorded as exceptions in IBM StoredIQ Data Workbench. <note class="- topic/note " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="note:1;66:89"> Actions can
+                    be created within IBM StoredIQ Administrator and then made available to other
+                    IBM StoredIQ applications such as IBM StoredIQ Data Workbench. </note>
+            </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:6;70:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:6;71:20">Managing target sets:</b> Provides an interface that allows the user to set the
+                wanted targets for specific actions that require a destination volume for their
+                actions. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:7;74:17"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:7;74:20"> Reports:</b> IBM StoredIQ Administrator provides a number of built-in reports,
+                such as summaries of data objects in the system, storage use, and the number of
+                identical documents in the system. You can create custom reports, including Query
+                Analysis Reports for e-discovery purposes, and automatically email report
+                notifications to administrators and other interested parties. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:8;79:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:8;80:20">Auto-classification:</b> Automated document categorization, what IBM StoredIQ
+                refers to as auto- classification models, integrates the IBM® Content
+                Classification's classification model into the IBM StoredIQ infoset-generation
+                process. Data Experts can use IBM Content Classification to train a classification
+                model, which is then registered with IBM StoredIQ Administrator. The registered
+                classification model can be applied to an existing infoset in IBM StoredIQ Data
+                Workbench to generate new metadata for the objects in the infoset. Metadata can be
+                used in rule-based filters to create new infosets. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:9;88:17">
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="p:6;89:20">
+                    <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:9;90:24">Cartridges:</b> Cartridges are compressed files that contain analysis logic.
+                    When you add a cartridge to IBM StoredIQ AppStack, it can detect new data in
+                    documents during indexing and make these new insights searchable. For example, a
+                    sensitive pattern cartridge can enable IBM StoredIQ to detect passport numbers,
+                    phone numbers, and other IDs. </p>
+                <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="p:7;95:20"> To apply the analysis logic contained in the cartridge, you must run a Step-up
+                    Analytics action that uses the cartridge on an infoset. IBM StoredIQ examines
+                    all documents in the infoset, applies the analytics, and then stores the
+                    analysis results in the IBM StoredIQ index. </p>
+            </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:10;100:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:10;101:20">Managing concepts: </b>Provides the ability to relate business concepts to
+                indexed data. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:11;103:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:11;104:20">Managing Mule scripts:</b> Helps you to create Mule scripts and upload script
+                packages. These Mule scripts are used by IBM StoredIQ Policy Manager to create
+                policies using the automation workflow. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:12;107:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:12;108:20">DataServer - Classic:</b> Data servers can be categorized in two types:
+                DataServer - Classic and DataServer - Distributed. DataServer - Classic refers to
+                the regular data servers. It uses either the current PostgreSQL or Lucene index as
+                an index. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:13;112:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:13;113:20">DataServer - Distributed:</b> The distributed data server uses an Elasticsearch
+                cluster instead of an embedded Postgres database. It increases the scalability and
+                flexibility of the IBM StoredIQ deployment in a way that it can manage much larger
+                amounts of data. Without adding more data servers, data that is managed by the IBM
+                StoredIQ deployment can be increased by adding new nodes to the Elasticsearch
+                cluster. Search queries perform better on DataServer - Distributed. </li>
+            <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="li:14;119:17">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Concepts/IBM-StoredIQ-Administrator.dita" xtrc="b:14;120:20">Connector API SDK:</b> A connector is a software component of IBM StoredIQ that
+                is used to connect to a data source such as a network file system and access its
+                data. Using IBM StoredIQ Connector API SDK, developers of other companies can
+                develop connectors to new data sources outside the IBM StoredIQ development
+                environment. These connectors can be integrated with a live IBM StoredIQ application
+                to index, search, manage, and analyze data on the data source. </li>
+        </ul>
+    </conbody>
+</concept>

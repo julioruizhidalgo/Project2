@@ -6,25 +6,25 @@
     <conbody>
         <p/>
 
-        <image placement="break" scope="local" href="../../Resources/Images/IBM-Logo.png" id="image_logo" format="png">
+        <image placement="break" scope="local" href="../../Resources/Images/IBM-Logo.png" id="image_logo" format="png" audience="novice" platform="windows" product="product1">
             <alt>IBM logo</alt>
         </image>
         <image placement="break" scope="external" href="../../Resources/Images/2.IBM_StoredIQ_Data_Server.png"
-            id="image_2" format="png">
+            id="image_2" format="png" audience="novice" platform="windows" product="product2">
             <alt>IBM StoredIQ Data Server</alt>
         </image>
         <image placement="break" scope="external" href="../../Resources/Images/3.IBM_StoredIQ_Administrator.png"
-            id="image_3" format="png">
+            id="image_3" format="png" audience="expert" platform="windows" product="product2">
             <alt>IBM_StoredIQ Administrator</alt>
         </image>
         <image placement="break" scope="external" href="../../Resources/Images/4.IBM_StoredIQ_Data_Workbench.png"
-            id="image_4" format="png">
+            id="image_4" format="png" audience="novice" platform="windows" product="product2">
             <alt>IBM StoredIQ Data Workbench</alt>
         </image>
-        <image placement="break" scope="external" href="../../Resources/Images/5.IBM_StoredIQ_Insights.png" id="image_5" format="png">
+        <image placement="break" scope="external" href="../../Resources/Images/5.IBM_StoredIQ_Insights.png" id="image_5" format="png" audience="novice" platform="windows" product="product2">
             <alt>IBM StoredIQ Insights</alt>
         </image>
-        <image placement="break" scope="external" href="../../Resources/Images/6.IBM_StoredIQ_Policy_Manager.png" id="image_6" format="png">
+        <image placement="break" scope="external" href="../../Resources/Images/6.IBM_StoredIQ_Policy_Manager.png" id="image_6" format="png" audience="novice" platform="mac" product="product1">
             <alt>IBM StoredIQ Policy Manager</alt>
         </image>
     </conbody>

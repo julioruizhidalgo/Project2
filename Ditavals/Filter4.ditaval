@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+   
+    <prop action="passthrough" att="product" val="product2"></prop>
+    <prop action="exclude" att="product" val="product1"></prop>
+    
+</val>

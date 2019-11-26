@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/Topics/Tasks?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/Topics/Tasks/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="task:1;3:56">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="title:1;4:12">Deploying IBM StoredIQ on Microsoft Hyper-V</title>
+    <abstract class="- topic/abstract " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="abstract:1;5:15">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data
+        server, and application stack can be installed on Microsoft Hyper-V. This option is not
+        supported for the Elasticsearch virtual appliance.</abstract>
+
+
+
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="taskbody:1;11:15">
+        <prereq class="- topic/section task/prereq " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="prereq:1;12:17">Installing IBM StoredIQ on Microsoft Hyper-V requires the use of third-party
+            software. For the procedure described here, the following software prerequisites must be
+            met: <ul class="- topic/ul " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="ul:1;14:22">
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="li:1;15:21">Microsoft Hyper-V Manager must be installed on a Windows system.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="li:2;16:21">7-zip for Windows or tar for the Linux operating system must be available to
+                    extract contents of the OVA.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="li:3;18:21">7-zip for Windows or gunzip for the Linux operating system must be installed to
+                    decompress the vmdk.gz file.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="li:4;20:21">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be
+                    installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx
+                    files.</li>
+            </ul>
+        </prereq>
+        <context class="- topic/section task/context " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="context:1;25:18">
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="p:1;26:16">Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be
+                built manually.</p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="p:2;28:16">Consider the following instructions a sample procedure. The instructions might differ
+                depending on the version of the third-party software.</p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="p:3;30:16">Complete these steps for the gateway, the data server, and the AppStack:</p>
+        </context>
+
+        <steps class="- topic/ol task/steps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="steps:1;33:16">
+
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="step:1;35:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:1;36:22">Extract the vmdk file from the OVA. </cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substeps:1;37:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:1;38:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:2;39:30">Download the OVA.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:2;41:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:3;42:30">Extract the contents of the OVA by using 7-zip for Windows or tar for
+                            the Linux operating system.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:3;45:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:4;46:30">Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for
+                            Linux.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:4;49:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:5;50:30">Delete everything except the vmdk file when the OVA extraction is
+                            complete.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="step:2;55:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:6;56:22">Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="info:1;57:23"> For instructions about converting .vmdk files to .vhdx files, see the
+                    following links: <ul class="- topic/ul " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="ul:2;58:42">
+                        <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="li:5;59:29"><xref href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn874008(v=ws.11)?redirectedfrom=MSDN" format="html" scope="external" class="- topic/xref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="xref:1;61:64"><?ditaot usertext?>Use Microsoft Virtual Machine
+                                Converter</xref></li>
+                        <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="li:6;63:29"><xref href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/virtualization/sect-virtualization-tips_and_tricks-using_qemu_img" format="html" scope="external" class="- topic/xref " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="xref:2;65:64"><?ditaot usertext?>Using qemu-img</xref></li>
+                    </ul></info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="step:3;68:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:7;69:22">Build a virtual machine.</cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substeps:2;70:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:5;71:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:8;72:30">Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:1;72:40">New Virtual Machine </b>&gt; <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:2;72:69">Next</b> from Hyper-V
+                            Manager.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:6;75:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:9;76:30">Enter the name of the virtual machine in the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:3;76:78">Specify Name and
+                                Location</b> window and click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:4;77:66">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:7;79:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:10;80:30">Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:5;80:40">Generation of the machine</b> in the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:6;80:80">Specify
+                                Generation</b> window.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:8;83:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:11;84:30">Enter the startup memory in the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:7;84:65">Assign Memory</b> window.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:9;86:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:12;87:30">Select the correct network in the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:8;87:67">Configure Network</b> window and
+                            click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:9;88:38">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:10;90:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:13;91:30">Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:10;91:40">Use an existing virtual hard disk</b> in the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:11;91:88">Connect
+                                Virtual Hard Disk</b> window. Search the disk location, select one
+                            of the primary disks, and then click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:12;93:69">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:11;95:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:14;96:30">Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:13;96:39">Finish</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:12;98:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:15;99:30">Repeat these previous steps for all IBM StoredIQ disks.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="step:4;103:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:16;104:22">Optional: Add disks.</cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substeps:3;105:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:13;106:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:17;107:30">Select a virtual machine in Microsoft Hyper-V Manager.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:14;109:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:18;110:30">Select the settings for the virtual machine under <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:14;110:83">Actions</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:15;112:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:19;113:30">Select the IDE controller and highlight Hard Drive in the
+                                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:15;114:36">Settings</b> window.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:16;116:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:20;117:30">Select Hard Drive and virtual hard disk and click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:16;117:83">New</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:17;119:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:21;120:30">Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:17;120:39">Next</b> in the New Virtual Hard Disk wizard.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:18;122:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:22;123:30">Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:18;123:40">VHDX</b> in Choose Disk Format and then click
+                            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:19;124:32">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:19;126:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:23;127:30">Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:20;127:40">Dynamically expanding</b> in Choose Disk Type and then click
+                                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:21;128:36">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:20;130:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:24;131:30">Enter a name for the disk in the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:22;131:66">Specify Name and Location</b>
+                            window and the click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:23;132:53">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:21;134:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:25;135:30">Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:24;135:40">Create a new blank virtual hard disk</b> and enter a size in
+                            the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:25;136:36">Configure Disk </b>window and then click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="b:26;136:80">Finish</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="substep:22;138:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="cmd:26;139:30">Repeat this procedure for all additional disks.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            
+        </steps>
+        <postreq class="- topic/section task/postreq " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.dita" xtrc="postreq:1;145:18">Complete the installation process by following the instructions in “Configuring IBM StoredIQ” on page 22.</postreq>
+    </taskbody>
+    
+</task>

@@ -2,10 +2,21 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="ibm_storediq_administrator">
     <title>IBM StoredIQ Administrator</title>
-    <shortdesc>IBM StoredIQ Administrator helps you manage global assets common to the distributed infrastructure behind IBM StoredIQ applications.</shortdesc>
+    <abstract> IBM StoredIQ Administrator helps you manage global assets common to the distributed
+        infrastructure behind IBM StoredIQ applications. </abstract>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword> Cartridges </keyword>
+                <indexterm>Cartridges</indexterm>
+                <indexterm>Managing Mule scripts <index-see>Managing scripts</index-see>
+                </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>
-            <image conkeyref="images/image_3"></image>
+            <image conkeyref="images/image_3"/>
         </p>
         <p> IBM StoredIQ Administrator provides at-a-glance understanding of the different issues
             that can crop up in the IBM StoredIQ environment. These views are unique to the IBM

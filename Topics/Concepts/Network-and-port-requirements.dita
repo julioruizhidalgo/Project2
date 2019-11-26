@@ -2,7 +2,19 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="network_and_port_requirements">
     <title>Network and port requirements</title>
-    <shortdesc/>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>TCP</keyword>
+                <indexterm>TCP
+                    <indexterm>Default open ports </indexterm>
+                    <indexterm>Supported chain and rules on the IBM StoredIQ gateway</indexterm>
+                </indexterm>
+                
+            </keywords>
+        </metadata>
+    </prolog>
+   
     <conbody>
         <p>For proper communication, the IBM StoredIQ components must be able to connect to each
             other.</p>

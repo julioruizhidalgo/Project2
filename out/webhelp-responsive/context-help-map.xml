@@ -47,4 +47,13 @@
                path="Topics/Tasks/Deploying-the-virtual-appliances.html"/>
    <appContext helpID="Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V"
                path="Topics/Tasks/Deploying-IBM-StoredIQ-on-Microsoft-Hyper-V.html"/>
+   <appContext helpID="aa" path="Topics/Glossary/Glossary.html#aa"/>
+   <appContext helpID="ab" path="Topics/Glossary/Glossary.html#ab"/>
+   <appContext helpID="ac" path="Topics/Glossary/Glossary.html#ac"/>
+   <appContext helpID="ad" path="Topics/Glossary/Glossary.html#ad"/>
+   <appContext helpID="ae" path="Topics/Glossary/Glossary.html#ae"/>
+   <appContext helpID="af" path="Topics/Glossary/Glossary.html#af"/>
+   <appContext helpID="ag" path="Topics/Glossary/Glossary.html#ag"/>
+   <appContext helpID="ah" path="Topics/Glossary/Glossary.html#ah"/>
+   <appContext helpID="ai" path="Topics/Glossary/Glossary.html#ai"/>
 </map>

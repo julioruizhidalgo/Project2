@@ -5,6 +5,7 @@
     <keydef keys="images" href="Topics/Concepts/Images-Collection.dita"></keydef>
     <keydef keys="tables" href="Topics/Concepts/Tables.dita"></keydef>
     <keydef keys="notes" href="Topics/Concepts/Notes.dita"></keydef>
-    <keydef keys="links" href="Topics/Concepts/Links.dita"></keydef>
+    
+    <keydef keys="glossary" href="Topics/Glossary/Glossary.dita"></keydef>
     
 </map>

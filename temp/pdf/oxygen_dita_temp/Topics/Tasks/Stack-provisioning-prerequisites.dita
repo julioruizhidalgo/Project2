@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Tasks?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Tasks/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="Stack-provisioning-prerequisites" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="task:1;3:45">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="title:1;4:12">Stack-provisioning prerequisites</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="shortdesc:1;5:17"/>
+
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="taskbody:1;7:15">
+        <prereq class="- topic/section task/prereq " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="prereq:1;8:17">
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="p:1;9:16">Before a deployment, verify that you meet these prerequisites.</p>
+            <ul class="- topic/ul " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="ul:1;10:17">
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:1;11:21">At least one physical server with sufficient processor, RAM, and hard disk
+                    configuration for the planned management project.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:2;13:21">VMware ESX or ESXi on CD/DVD or USB drive.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:3;14:21">IP addresses, cables, and physical switch ports for at least the ESXi/ESX
+                    interface, one data server, one gateway server, and one application stack.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:4;16:21">Network connectivity that is enabled from the following locations: <ul class="- topic/ul " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="ul:2;16:92">
+                        <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:5;17:29">The data server IP address to the gateway IP address on port 11103</li>
+                        <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:6;18:29">The gateway IP address to and from the application stack IP address on
+                            port 8765 and 5432</li>
+                        <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:7;20:29">Ports 80, 443, and 22 from the administrative workstation to the
+                            application stack and data server IP addresses</li>
+                        <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:8;22:29">Port 22 from the administrative workstation to the gateway IP
+                            address.</li>
+
+                    </ul></li>
+                
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:9;27:21">Network connectivity that is enabled from the data server IP address to any
+                    data sources to be harvested and managed.</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="li:10;29:21">A management station computer or notebook from where the load-management work is
+                    done.</li>
+            </ul>
+        </prereq>
+        <context class="- topic/section task/context " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="context:1;33:18">
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="p:2;34:17"/>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="steps:1;36:16">
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="step:1;37:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Stack-provisioning-prerequisites.dita" xtrc="cmd:1;38:23"/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Application stack","href":"Topics\/Glossary\/Glossary.html#aa","attributes": {"data-id":"aa",},"menu": {"hasChildren":false,},"tocID":"aa-d62e316","topics":[]},{"title":"Auto-classification","href":"Topics\/Glossary\/Glossary_2.html#ab","attributes": {"data-id":"ab",},"menu": {"hasChildren":false,},"tocID":"ab-d62e324","topics":[]}]});

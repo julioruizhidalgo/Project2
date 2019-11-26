@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="imb_storedid_desktop_data_collector">
     <title>IBM StoredIQ Desktop Data Collector</title>
-    <shortdesc>IBM StoredIQ Desktop Data Collector (also referred to as desktop client indexes
+    <abstract>IBM StoredIQ Desktop Data Collector (also referred to as desktop client indexes
         desktops as volumes. The volumes appear in IBM StoredIQ Data Server and in IBM StoredIQ
-        Administrator, where they can be used like any other data source.</shortdesc>
+        Administrator, where they can be used like any other data source.</abstract>
     <conbody>
         <p> The data server maintains an index using the information sent by the desktop client.
             After indexing, desktops - even offline or unreachable ones - can be viewed, searched,

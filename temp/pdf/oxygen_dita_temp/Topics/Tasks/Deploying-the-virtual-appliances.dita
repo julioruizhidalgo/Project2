@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Tasks?><?workdir-uri file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/temp/pdf/oxygen_dita_temp/Topics/Tasks/?><?path2project ../../?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="Deploying-the-virtual-appliances" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="task:1;3:45">
+    <title class="- topic/title " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="title:1;4:12">Deploying the virtual appliances</title>
+    <abstract class="- topic/abstract " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="abstract:1;5:15">Use VMware vSphere Client to deploy the virtual appliances to an ESX server. Deploy
+        OVAs for the gateway, the data server, and the application stack, preferably in this order.
+        If an Elasticsearch cluster is also being deployed, those OVAs must be deployed
+        first.</abstract>
+
+
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="taskbody:1;11:15">
+
+        <prereq class="- topic/section task/prereq " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="prereq:1;13:17"><p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="p:1;13:20">Ensure that all prerequisites for the deployment described in the planning
+                section are met and that the required software packages are available on your local
+                system before you start this task.</p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="p:2;16:16">Download the latest version of IBM StoredIQ from either IBM Fix Central or IBM
+                Passport Advantage®. For information about the package names and part numbers and
+                the links to the proper download locations, see the download document.</p>
+        </prereq>
+        <context class="- topic/section task/context " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="context:1;20:18">
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="p:3;21:16">The number of Elasticsearch OVAs deployed depends on the planned size of your
+                Elasticsearch cluster. The default setup is a three-node cluster. Each Elasticsearch
+                node requires a separate OVA deployment.</p>
+            <p class="- topic/p " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="p:4;24:16">The number of data server OVAs deployed depends on the number of data servers needed.
+                Each data server requires a separate OVA deployment.</p>
+        </context>
+
+        <steps class="- topic/ol task/steps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="steps:1;28:16">
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="step:1;29:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:1;30:22">Connect to the ESX server or vCenter server.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="step:2;32:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:2;33:22">Open VMware vSphere Client.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="step:3;35:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:3;36:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:1;36:32">File</b> &gt; <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:2;36:46">Deploy OVF Template</b>.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="step:4;38:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:4;39:22">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:3;39:36">Deploy OVF Template </b>wizard, complete these steps. </cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substeps:1;40:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substep:1;41:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:5;42:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:4;42:44">Select source</b> page, click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:5;42:77">Local file</b>, and then
+                            browse to and select the appropriate OVF. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:6;43:80">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substep:2;45:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:6;46:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:7;46:44">Review details</b> page, review the OVF template
+                            details.</cmd>
+                        <info class="- topic/itemgroup task/info " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="info:1;48:31">These storage requirements are critical and will be used to select a
+                            data store during deployment. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:8;49:68">Next</b> to proceed.</info>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substep:3;51:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:7;52:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:9;52:44">Select name and folder</b> page, enter a name for the
+                            deployed template or use the default name. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:10;53:81">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substep:4;55:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:8;56:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:11;56:44">Select a resource </b>page, select the resource pool
+                            where the deployed OVF template runs. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:12;57:76">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substep:5;59:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:9;60:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:13;60:44">Select storage</b> page, select a data store on which to
+                            store the deployed OVF template files. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:14;61:77">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substep:6;63:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:10;64:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:15;64:44">Disk Format</b> list, select the disk format to be
+                            deployed. Note that although <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:16;65:61">Thin Provision</b> saves disk space, it
+                            can negatively affect performance. If possible, select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:17;66:87">Thick
+                                Provision Lazy Zeroed</b>. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:18;67:69">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substep:7;69:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:11;70:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:19;70:44">Network Mapping</b>, map the network to the appropriate
+                            network. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:20;71:47">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="substep:8;73:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:12;74:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:21;74:44">Ready to Complete</b> page, review the deployment
+                            settings. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:22;75:48">Finish</b> to complete the Deploy OVF Template.</cmd>
+                        <info class="- topic/itemgroup task/info " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="info:2;76:31"> At this point, you can select the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="b:23;76:69">Power on</b> check box to turn
+                            on the VM after deployment is complete. </info>
+                        <info importance="high" class="- topic/itemgroup task/info " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="info:3;78:49">If your IBM StoredIQ environment includes an
+                            Elasticsearch cluster, do not select this option when you're deploying
+                            the data server OVA. The Elasticsearch cluster setup must be complete
+                            before you run the data server first-boot process. </info>
+                    </substep>
+                </substeps>
+
+
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="step:5;87:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="cmd:13;88:22">Repeat steps 3 and 4 for each OVA.</cmd>
+            </step>
+        </steps>
+        <postreq class="- topic/section task/postreq " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="postreq:1;91:18">
+            Configure the components of your IBM StoredIQ environment in this order:
+            <ol class="- topic/ol " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="ol:1;93:17">
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="li:1;94:21">Elasticsearch cluster (if applicable)</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="li:2;95:21">Gateway</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="li:3;96:21">One or more data servers</li>
+                <li class="- topic/li " xtrf="file:/Users/julioruiz/Desktop/Workspace/Publication/Project2/Topics/Tasks/Deploying-the-virtual-appliances.dita" xtrc="li:4;97:21">Application stack</li>
+            </ol>
+        </postreq>
+    </taskbody>
+    
+</task>
